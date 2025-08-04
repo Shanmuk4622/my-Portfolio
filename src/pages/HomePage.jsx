@@ -3,24 +3,23 @@ import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
 import './HomePage.css';
 
-// The path '../' goes from 'src/pages' up to 'src/'
-// Then '/assets/profile.png' goes into the assets folder.
 import profileImage from '../assets/profile.png';
 import resumePDF from '../assets/resume.pdf';
 
 const HomePage = () => {
-  // ... rest of the component code
   return (
     <section className="hero-section">
       <div className="hero-content">
-        <h1 className="hero-name">Your Full Name</h1>
+        <h1 className="hero-name">Bonala Shanmukesh</h1>
         <TypeAnimation
           sequence={[
             'Deep Learning Enthusiast',
             2000,
             'AI & ML Researcher',
             2000,
-            'Software Developer',
+            'Computer Vision Developer',
+            2000,
+            'Hackathon Finalist',
             2000,
           ]}
           wrapper="h2"
@@ -29,17 +28,17 @@ const HomePage = () => {
           repeat={Infinity}
         />
         <p className="hero-bio">
-          A brief 2-3 line bio about who you are, your core interests in technology, and what you're currently focused on. Keep it engaging and professional.
+          I'm a B.Tech AI-ML undergrad at VIT-AP with a strong focus on Deep Learning, Computer Vision, and real-world applications of AI. I love building innovative projects that bridge research and impact, from autonomous vehicles to image understanding.
         </p>
         <div className="hero-buttons">
           <Link to="/projects" className="btn btn-primary">View My Work</Link>
-          <a href={resumePDF} download="YourName_Resume.pdf" className="btn btn-secondary">
+          <a href={resumePDF} download="BonalaShanmukesh_Resume.pdf" className="btn btn-secondary">
             Download Resume
           </a>
         </div>
       </div>
       <div className="hero-image-container">
-        <img src={profileImage} alt="Your Name" className="hero-image" />
+        <img src={profileImage} alt="Bonala Shanmukesh" className="hero-image" />
       </div>
     </section>
   );

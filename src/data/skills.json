@@ -1,0 +1,14 @@
+[
+  {
+    "category": "Programming Languages",
+    "skills": ["Python", "JavaScript", "C++", "Java", "Dart"]
+  },
+  {
+    "category": "Frameworks & Libraries",
+    "skills": ["TensorFlow", "PyTorch", "OpenCV", "React.js", "Node.js", "Flutter", "Scikit-learn"]
+  },
+  {
+    "category": "Tools & Platforms",
+    "skills": ["Git & GitHub", "Docker", "VS Code", "Jupyter", "Google Cloud", "Firebase"]
+  }
+]

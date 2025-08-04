@@ -1,10 +1,15 @@
+// src/App.jsx
+
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/navbar';
+import Navbar from './components/Navbar';
+import Footer from './components/footer';
+
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ExperiencePage from './pages/ExperiencePage';
 import ContactPage from './pages/ContactPage';
+
 import './App.css';
 
 function App() {
@@ -20,6 +25,7 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </main>
+      <Footer />
     </>
   );
 }

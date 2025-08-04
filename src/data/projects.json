@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "YOLO-AD-Framework",
+    "description": "Comparative research‑driven framework using YOLOv5, YOLOv8 etc. for anomaly detection in video streams.",
+    "image": "/Project1.gif",
+    "tags": ["Python", "YOLOv5", "YOLOv8", "Computer Vision", "Anomaly Detection"],
+    "githubLink": "https://github.com/Shanmuk4622/YOLO-AD-Framework",
+    "demoLink": "https://youtu.be/oGDH1FkKNZc",
+    "start": "2025-02",
+    "end": "2025-04"
+  },
+  {
+    "id": 2,
+    "title": "Face Recognition & Attendance",
+    "description": "Real‑time face recognition system using webcam and OpenCV; logs attendance with timestamps.",
+    "image": "/Project2.gif",
+    "tags": ["Python", "OpenCV", "Face Recognition", "Attendance"],
+    "githubLink": "https://github.com/Shanmuk4622/FaceTrack-Attendance",
+    "demoLink": "https://youtu.be/e-r-lOBEmJM",
+    "start": "2025-03",
+    "end": "2025-05"
+  },
+  {
+    "id": 3,
+    "title": "Anomaly Detection (Fire & Theft)",
+    "description": "Hackathon project detecting fire & theft anomalies using YOLOv8 and custom tracking in video streams.",
+    "image": "/Project3.gif",
+    "tags": ["Python", "YOLOv8", "Anomaly Detection", "OpenCV"],
+    "githubLink": "https://github.com/Shanmuk4622/Anomaly-Detection-Fire-Theft",
+    "demoLink": "https://youtu.be/AtcrRrPUqS8",
+    "start": "2025-04",
+    "end": "2025-06"
+  },
+  {
+    "id": 4,
+    "title": "Train Custom YOLO Model",
+    "description": "End-to-end custom YOLO model training pipeline using Colab—data prep, labeling, training, inference.",
+    "image": "/Project4.gif",
+    "tags": ["Python", "YOLOv8", "OpenCV", "Colab"],
+    "githubLink": "https://github.com/Shanmuk4622/Train-Custom-YOLO-Model",
+    "demoLink": "https://youtu.be/h1uSszfUUVU",
+    "start": "2024-11",
+    "end": "2025-01"
+  },
+  {
+    "id": 5,
+    "title": "AI Virtual Mouse",
+    "description": "Hand‑gesture controlled virtual mouse using Mediapipe and OpenCV for hands‑free interaction.",
+    "image": "/Project5.gif",
+    "tags": ["Python", "Mediapipe", "Computer Vision", "Gesture Control"],
+    "githubLink": "https://github.com/Shanmuk4622/AI-Virtual-Mouse-Project",
+    "demoLink": "https://youtu.be/ZWGJwAkexRA",
+    "start": "2024-09",
+    "end": "2024-11"
+  }
+]
