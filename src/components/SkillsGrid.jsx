@@ -1,13 +1,13 @@
 import React from 'react';
-import { FaPython, FaJs, FaJava, FaGitAlt, FaDocker, FaNodeJs } from 'react-icons/fa';
-import { SiCplusplus, SiDart, SiTensorflow, SiPytorch, SiOpencv, SiReact, SiFlutter, SiScikitlearn, SiJupyter, SiGooglecloud, SiFirebase, SiVisualstudiocode } from 'react-icons/si';
+import { FaPython, FaJs, FaJava, FaGitAlt, FaDocker, FaNodeJs, FaCode } from 'react-icons/fa';
+import { SiCplusplus, SiDart, SiTensorflow, SiPytorch, SiOpencv, SiReact, SiFlutter, SiScikitlearn, SiJupyter, SiGooglecloud, SiFirebase } from 'react-icons/si';
 import './SkillsGrid.css';
 
 // Map skill names to icons (add more as needed)
 const iconMap = {
   Python: <FaPython />, JavaScript: <FaJs />, 'C++': <SiCplusplus />, Java: <FaJava />, Dart: <SiDart />,
   TensorFlow: <SiTensorflow />, PyTorch: <SiPytorch />, OpenCV: <SiOpencv />, 'React.js': <SiReact />, 'Node.js': <FaNodeJs />, Flutter: <SiFlutter />, 'Scikit-learn': <SiScikitlearn />,
-  'Git & GitHub': <FaGitAlt />, Docker: <FaDocker />, 'VS Code': <SiVisualstudiocode />, Jupyter: <SiJupyter />, 'Google Cloud': <SiGooglecloud />, Firebase: <SiFirebase />
+  'Git & GitHub': <FaGitAlt />, Docker: <FaDocker />, 'VS Code': <FaCode />, Jupyter: <SiJupyter />, 'Google Cloud': <SiGooglecloud />, Firebase: <SiFirebase />
 };
 
 const SkillsGrid = ({ skillsData }) => (
