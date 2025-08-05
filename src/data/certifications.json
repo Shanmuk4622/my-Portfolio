@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "TensorFlow Developer Certificate",
+    "issuer": "Google",
+    "date": "2024",
+    "url": "link-to-your-certificate"
+  },
+  {
+    "id": 2,
+    "name": "AWS Certified Cloud Practitioner",
+    "issuer": "Amazon Web Services",
+    "date": "2023",
+    "url": "link-to-your-certificate"
+  }
+]
