@@ -1,16 +1,72 @@
 [
   {
     "id": 1,
-    "name": "TensorFlow Developer Certificate",
-    "issuer": "Google",
-    "date": "2024",
-    "url": "link-to-your-certificate"
+    "name": "Deloitte Australia Technology Virtual Internship",
+    "issuer": "Forage",
+    "date": "2025-07",
+    "url": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_KpzcgKMdrAYSeuxCt_1753417154738_completion_certificate.pdf"
   },
   {
     "id": 2,
-    "name": "AWS Certified Cloud Practitioner",
-    "issuer": "Amazon Web Services",
-    "date": "2023",
-    "url": "link-to-your-certificate"
+    "name": "Cyber Security Essentials",
+    "issuer": "CertX",
+    "date": "2025",
+    "url": "https://certx.in/certificate/27431ebc-ac17-43c8-9713-f5b20ad95b99402028"
+  },
+  {
+    "id": 3,
+    "name": "AI for Everyone",
+    "issuer": "CredsVerse",
+    "date": "2025",
+    "url": "https://credsverse.com/credentials/ef7b5a14-d0af-4ad3-a1fe-e90b54f9067e"
+  },
+  {
+    "id": 4,
+    "name": "ChatGPT for Beginners: Complete Guide to Conversational AI",
+    "issuer": "Udemy",
+    "date": "2024",
+    "url": "https://www.udemy.com/certificate/UC-f7ac2a2c-195a-4162-9476-c1a9e4807440/"
+  },
+  {
+    "id": 5,
+    "name": "Practical AI Using ChatGPT",
+    "issuer": "CredsVerse",
+    "date": "2025",
+    "url": "https://credsverse.com/credentials/ffcb09e9-0a7f-4415-a7b7-d5285b95ea22"
+  },
+  {
+    "id": 6,
+    "name": "Machine Learning Foundations",
+    "issuer": "Skills Network (IBM)",
+    "date": "2024",
+    "url": "https://courses.adroitprolearn.skillsnetwork.site/certificates/7c54955bf31640cd8ad4d2786b38b956"
+  },
+  {
+    "id": 7,
+    "name": "AI-ML Virtual Internship Program",
+    "issuer": "Wadhwani Foundation",
+    "date": "2023-10",
+    "url": "https://web.certificate.wfglobal.org/en/certificate?certificateId=67fde7e6eeacc2785e226818"
+  },
+  {
+    "id": 8,
+    "name": "5th International Workshop on Technical Writing using LaTeX",
+    "issuer": "VIT-AP & IEEE SENSE Dept.",
+    "date": "2025-06",
+    "url": "file://workshop-on-latex.pdf"
+  },
+  {
+    "id": 9,
+    "name": "IEEE Student Member",
+    "issuer": "IEEE Hyderabad Section",
+    "date": "2025",
+    "url": "file://IEEEMemberCertificate-Milestone-1.pdf"
+  },
+  {
+    "id": 10,
+    "name": "DevOps Workshop Certificate",
+    "issuer": "Unknown (from image)",
+    "date": "Unknown",
+    "url": "file://DevOps.jpg"
   }
 ]

@@ -4,11 +4,13 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/footer';
 
+
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ExperiencePage from './pages/ExperiencePage';
 import ContactPage from './pages/ContactPage';
+import CertificationsPage from './pages/CertificationsPage';
 
 import './App.css';
 
@@ -24,7 +26,7 @@ function App() {
           <Route path="/experience" element={<ExperiencePage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/certifications" element={<CertificationsPage />} />
-          
+
         </Routes>
       </main>
       <Footer />

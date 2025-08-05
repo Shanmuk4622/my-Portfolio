@@ -33,14 +33,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Define color variables for the dark theme */
 body.dark {
-  --bg-color: #121212;
-  --bg-secondary-color: #1e1e1e;
-  --text-primary-color: #e0e0e0;
-  --text-secondary-color: #bbbbbb;
-  --primary-color: #61dafb;
-  --primary-color-hover: #82e9ff;
-  --border-color: #444444;
-  --card-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  --bg-color: #181c24;
+  --bg-secondary-color: #232a36;
+  --text-primary-color: #f5f6fa;
+  --text-secondary-color: #bfc9d1;
+  --primary-color: #4fd1c5;
+  --primary-color-hover: #38b2ac;
+  --border-color: #2d3748;
+  --card-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* --- Global Styles --- */
