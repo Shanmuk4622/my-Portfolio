@@ -10,6 +10,37 @@
   z-index: 1000;
 }
 
+.navbar-hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 1.5rem;
+  z-index: 1100;
+}
+.navbar-hamburger span {
+  display: block;
+  height: 4px;
+  width: 100%;
+  background: white;
+  margin: 4px 0;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+.navbar-hamburger.open span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.navbar-hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+.navbar-hamburger.open span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: bold;
@@ -25,6 +56,52 @@
   transition: color 0.3s ease;
 }
 
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
 .navbar-links a:hover {
   color: #61dafb; /* A nice highlight color */
+}
+
+/* Add to Navbar.css */
+.theme-toggle-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-left: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  .navbar-hamburger {
+    display: flex;
+  }
+  .navbar-links {
+    position: absolute;
+    top: 64px;
+    right: 0;
+    background: #222;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 200px;
+    padding: 1.5rem 1rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    border-radius: 0 0 0 16px;
+    display: none;
+    z-index: 1050;
+  }
+  .navbar-links.open {
+    display: flex;
+  }
+  .navbar-links a, .theme-toggle-button {
+    margin: 1rem 0 0 0;
+    font-size: 1.1rem;
+  }
 }

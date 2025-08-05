@@ -137,21 +137,25 @@
 
 
 /* --- Responsive adjustments --- */
-@media (max-width: 768px) {
-  .timeline::before {
-    left: 10px;
+@media (max-width: 900px) {
+  .experience-container {
+    padding: 1rem;
+  }
+  .timeline {
+    margin-left: 0;
   }
   .timeline-item {
     width: 100%;
-    padding-left: 50px;
-    padding-right: 0;
-    text-align: left;
-  }
-  .timeline-item:nth-child(odd),
-  .timeline-item:nth-child(even) {
-    left: 0;
+    left: 0 !important;
+    padding: 1rem 0 1rem 50px;
+    text-align: left !important;
   }
   .timeline-item::after {
-    left: 1px;
+    left: 1px !important;
+    right: auto !important;
+  }
+  .timeline::before {
+    left: 10px;
+    transform: none;
   }
 }

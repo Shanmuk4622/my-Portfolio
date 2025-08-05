@@ -1,41 +1,34 @@
+
 import React from 'react';
 import './AboutPage.css';
-import { FaPython, FaReact, FaNodeJs } from 'react-icons/fa';
-import { SiTensorflow, SiOpencv, SiFlutter, SiPytorch, SiScikitlearn } from 'react-icons/si';
-import { TbBrandNextjs } from 'react-icons/tb';
+import SkillsGrid from '../components/SkillsGrid';
+import skillsData from '../data/skills.json';
+import profileImage from '../assets/profile.png';
+import resumePDF from '../assets/resume.pdf';
 
 const AboutPage = () => {
   return (
     <div className="about-container">
       <div className="about-main">
         <h1 className="about-title">About Me</h1>
+        <img src={profileImage} alt="Bonala Shanmukesh" style={{ width: '180px', borderRadius: '50%', marginBottom: '1.5rem', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }} />
+        <a href={resumePDF} download="BonalaShanmukesh_Resume.pdf" className="btn btn-primary" style={{ marginBottom: '1.5rem', display: 'inline-block' }}>Download Resume</a>
         <p className="about-text">
-          Hello! I'm <strong>Bonala Shanmukesh</strong>, a driven and curious software developer currently in my 3rd year of B.Tech at <strong>VIT-AP University</strong>, majoring in Artificial Intelligence and Machine Learning under the SCOPE CDE Department.
+          Hello! I'm <strong>Bonala Shanmukesh</strong>, a B.Tech AI-ML undergrad at <strong>VIT-AP University</strong> (SCOPE CDE Dept). My passion is bridging the gap between cutting-edge AI research and real-world impact.
         </p>
         <p className="about-text">
-          I'm deeply passionate about bridging the gap between cutting-edge AI research and real-world applications. Over the years, I’ve worked on multiple impactful projects involving <strong>object detection</strong>, <strong>semantic compression</strong>, <strong>tumor detection</strong>, and <strong>real-time tracking systems</strong>.
+          <strong>Core Achievements:</strong> Hackathon finalist (Smart India Hackathon), IEEE Vice-Chair, research on semantic compression (VA-JPEG), and autonomous systems (VisionDrive). I love building, leading, and learning in tech communities.
         </p>
         <p className="about-text">
-          My recent works include <strong>VisionDrive</strong>, an autonomous RC car using deep learning; <strong>VA-JPEG</strong>, a hybrid semantic-aware image codec; and <strong>SmartTrackX</strong>, a real-time vehicle tracking system for MSME logistics. I’ve also participated in several hackathons and contributed to innovative solutions blending <strong>machine vision, deep learning, and system design</strong>.
+          <strong>My Story:</strong> I got into AI/ML after a robotics workshop in my first year. Each project—like VisionDrive, VA-JPEG, and SmartTrackX—was a turning point, teaching me the power of deep learning, teamwork, and curiosity. Mentors and hackathons shaped my journey.
         </p>
         <p className="about-text">
-          I'm actively exploring topics like <strong>YOLOv8, CNNs, federated learning, image processing, and cross-platform mobile development</strong> with Flutter. When I’m not coding, I engage in research, write papers, and contribute to student-led tech clubs and communities.
+          <em>"I believe technology is most powerful when it solves real problems and inspires others to build."</em>
         </p>
       </div>
-
       <div className="about-skills">
-        <h2 className="skills-title">Key Skills</h2>
-        <ul className="skills-list">
-          <li className="skill-item"><FaPython className="skill-icon" /> Python</li>
-          <li className="skill-item"><SiPytorch className="skill-icon" /> PyTorch</li>
-          <li className="skill-item"><SiTensorflow className="skill-icon" /> TensorFlow</li>
-          <li className="skill-item"><SiOpencv className="skill-icon" /> OpenCV</li>
-          <li className="skill-item"><SiScikitlearn className="skill-icon" /> Scikit-learn</li>
-          <li className="skill-item"><FaReact className="skill-icon" /> React.js</li>
-          <li className="skill-item"><TbBrandNextjs className="skill-icon" /> Next.js</li>
-          <li className="skill-item"><FaNodeJs className="skill-icon" /> Node.js</li>
-          <li className="skill-item"><SiFlutter className="skill-icon" /> Flutter</li>
-        </ul>
+        <h2 className="skills-title">Key Skills & Tools</h2>
+        <SkillsGrid skillsData={skillsData} />
       </div>
     </div>
   );

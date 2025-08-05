@@ -1,16 +1,21 @@
 // src/App.jsx
 
+
+import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Footer from './components/footer';
+import Footer from './components/Footer';
+
 
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ExperiencePage from './pages/ExperiencePage';
 import ContactPage from './pages/ContactPage';
+import CertificationsPage from './pages/CertificationsPage';
 
 import './App.css';
+
 
 function App() {
   return (
@@ -23,6 +28,7 @@ function App() {
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/experience" element={<ExperiencePage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/certifications" element={<CertificationsPage />} />
         </Routes>
       </main>
       <Footer />
