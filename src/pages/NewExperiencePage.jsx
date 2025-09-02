@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import skillsData from '../data/skills.json';
-import './ExperiencePage.css';
-import ExperienceTimeline from '../components/ExperienceTimeline';
+import './NewExperiencePage.css';
+import NewExperienceTimeline from '../components/NewExperienceTimeline';
 import SkillsGrid from '../components/SkillsGrid';
 
-const ExperiencePage = () => {
+const NewExperiencePage = () => {
   const [experienceData, setExperienceData] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -57,7 +57,7 @@ const ExperiencePage = () => {
         </h2>
 
         
-        <ExperienceTimeline experienceData={experienceData} />
+        <NewExperienceTimeline experienceData={experienceData} />
       </div>
 
       {/* Skills Section */}
@@ -69,4 +69,4 @@ const ExperiencePage = () => {
   );
 };
 
-export default ExperiencePage;
+export default NewExperiencePage;

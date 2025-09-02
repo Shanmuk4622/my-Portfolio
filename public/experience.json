@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "role": "AI Research Intern",
+    "company": "Tech Solutions Inc.",
+    "period": "May 2024 - Aug 2024",
+    "description": [
+      "Developed and trained deep learning models for image classification, achieving 95% accuracy.",
+      "Collaborated with the R&D team to implement a new object detection pipeline using YOLOv8.",
+      "Preprocessed and augmented a large-scale dataset of over 50,000 images."
+    ]
+  },
+  {
+    "id": 2,
+    "role": "Software Developer Intern",
+    "company": "Innovate Co.",
+    "period": "June 2023 - Aug 2023",
+    "description": [
+      "Assisted in developing a customer-facing web application using React and Node.js.",
+      "Wrote unit tests, improving code coverage by 15%.",
+      "Participated in agile sprints, daily stand-ups, and code reviews."
+    ]
+  },
+  {
+    "id": 3,
+    "role": "IEEE Student Branch - Vice Chair",
+    "company": "VIT-AP University",
+    "period": "Sep 2023 - Present",
+    "description": [
+      "Organized and led technical workshops on Python, Git, and AI development.",
+      "Managed a team of 10+ volunteers to host AISP 2024, a university-wide IEEE conference.",
+      "Promoted student research and increased technical event participation by 30%."
+    ]
+  },
+  {
+    "id": 4,
+    "role": "Hackathon Finalist - MSME Smart India Hackathon",
+    "company": "MSME & Govt. of India",
+    "period": "July 2025",
+    "description": [
+      "Led a team to design 'SmartTrackX', a vehicle tracking system for SMEs using computer vision and GPS.",
+      "Integrated YOLOv8 for real-time vehicle detection and built a lightweight web dashboard for live updates.",
+      "Presented the solution to industry and government stakeholders during the final round."
+    ]
+  },
+  {
+    "id": 5,
+    "role": "Research Intern - VA-JPEG Project",
+    "company": "VIT-AP AI-ML Department",
+    "period": "Jan 2025 - Apr 2025",
+    "description": [
+      "Developed a semantic-aware image compression framework combining JPEG with embedded YOLOv8 metadata.",
+      "Improved detection mAP on compressed images by 11% while retaining visual fidelity.",
+      "Co-authored a research paper under review for Springer LNNS."
+    ]
+  },
+  {
+    "id": 6,
+    "role": "Deloitte Technology Virtual Intern",
+    "company": "Forage",
+    "period": "July 2025",
+    "description": [
+      "Completed tasks simulating real client problems like telemetry data reconciliation and system dashboard design.",
+      "Drafted a secure, real-time intranet dashboard proposal with internal authentication and status reporting.",
+      "Gained experience in corporate reporting, Python data handling, and team collaboration workflows."
+    ]
+  }
+]

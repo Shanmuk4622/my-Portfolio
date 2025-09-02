@@ -11,6 +11,7 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ExperiencePage from './pages/ExperiencePage';
+import ActivityPage from './pages/ActivityPage';
 import ContactPage from './pages/ContactPage';
 import CertificationsPage from './pages/CertificationsPage';
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/experience" element={<ExperiencePage />} />
+          <Route path="/activity" element={<ActivityPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/certifications" element={<CertificationsPage />} />
         </Routes>
