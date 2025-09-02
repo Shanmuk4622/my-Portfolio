@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 import experienceData from '../data/experience.json';
 import skillsData from '../data/skills.json';
 import './ExperiencePage.css';

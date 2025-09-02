@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "title": "Real-time Traffic Analysis System",
+      "description": "AI-powered traffic monitoring system using YOLOv8 for vehicle detection and tracking in urban environments.",
+      "image": "/Project6.gif",
+      "tags": ["Python", "YOLOv8", "Computer Vision", "Traffic Analysis", "OpenCV"],
+      "githubLink": "https://github.com/Shanmuk4622/Traffic-Analysis-System",
+      "demoLink": "https://youtu.be/example-demo-link",
+      "start": "2025-01",
+      "end": "2025-03"
+    }
+  ],
+  "experiences": [
+    {
+      "role": "AI Research Assistant",
+      "company": "VIT-AP AI Research Lab",
+      "period": "Jan 2025 - Present",
+      "description": [
+        "Leading research on semantic-aware image compression using deep learning",
+        "Collaborating with faculty on computer vision applications",
+        "Mentoring junior students in AI/ML projects"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Deep Learning Frameworks",
+      "skills": ["Keras", "TensorFlow Lite"]
+    },
+    {
+      "category": "Cloud Platforms",
+      "skills": ["AWS Lambda", "Azure ML Studio"]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Advanced Computer Vision with OpenCV",
+      "issuer": "Coursera",
+      "date": "2025-02",
+      "url": "https://coursera.org/verify/certificate-example"
+    }
+  ]
+}
