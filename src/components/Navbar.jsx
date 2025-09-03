@@ -25,6 +25,7 @@ const Navbar = () => {
         <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
         <Link to="/projects" onClick={() => setMenuOpen(false)}>Projects</Link>
         <Link to="/experience" onClick={() => setMenuOpen(false)}>Experience</Link>
+        <Link to="/activity" onClick={() => setMenuOpen(false)}>Activity</Link>
         <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
         <Link to="/certifications" onClick={() => setMenuOpen(false)}>Certifications</Link>
         <button onClick={toggleTheme} className="theme-toggle-button">

@@ -1,4 +1,4 @@
-.experience-container {
+.activity-container {
   padding: 2rem 1rem;
   max-width: 1400px;
   margin: 0 auto;
@@ -6,7 +6,7 @@
   overflow: visible;
 }
 
-.experience-title {
+.activity-title {
   text-align: center;
   font-size: 2.5rem;
   font-weight: 700;
@@ -43,7 +43,7 @@
   border-radius: 2px;
 }
 
-.experience-count {
+.activity-count {
   color: var(--primary-color);
   font-size: 1.2rem;
   margin-left: 0.5rem;
@@ -78,11 +78,11 @@
 }
 
 @media (max-width: 768px) {
-  .experience-container {
+  .activity-container {
     padding: 1rem 0.5rem;
   }
   
-  .experience-title {
+  .activity-title {
     font-size: 2rem;
     margin-bottom: 2rem;
   }

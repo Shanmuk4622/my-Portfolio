@@ -17,7 +17,7 @@ import {
   FaMapMarkerAlt,
   FaCogs
 } from 'react-icons/fa';
-import './ExperienceTimeline.css';
+import './NewExperienceTimeline.css';
 
 const iconMap = {
   'Internship': <FaBuilding />,
@@ -34,12 +34,12 @@ const iconMap = {
   'Conference Submission': <FaCalendarAlt />
 };
 
-const ExperienceTimeline = ({ experienceData }) => {
+const NewExperienceTimeline = ({ experienceData }) => {
   // Debug: Log the data
-  console.log('ExperienceTimeline received data:', experienceData);
-  console.log('ExperienceTimeline data length:', experienceData?.length);
-  console.log('ExperienceTimeline data type:', typeof experienceData);
-  console.log('ExperienceTimeline is array:', Array.isArray(experienceData));
+  console.log('NewExperienceTimeline received data:', experienceData);
+  console.log('NewExperienceTimeline data length:', experienceData?.length);
+  console.log('NewExperienceTimeline data type:', typeof experienceData);
+  console.log('NewExperienceTimeline is array:', Array.isArray(experienceData));
   
   // Ensure we have valid data
   if (!experienceData || !Array.isArray(experienceData)) {
@@ -190,4 +190,4 @@ const ExperienceTimeline = ({ experienceData }) => {
   );
 };
 
-export default ExperienceTimeline;
+export default NewExperienceTimeline;
