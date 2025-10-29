@@ -1,4 +1,5 @@
 import React from 'react';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion'; // Import motion
 import ProjectCard from '../components/ProjectCard';
 import projectsData from '../data/projects.json';

@@ -587,6 +587,89 @@
     "pics": [],
     "links": [],
     "progress": 100
+  },
+  {
+    "id": 49,
+    "title": "NextGen LMS (Synapse 2K25 Hackathon)",
+    "category": "Hackathon",
+    "organization": "Mohan Babu University (Synapse 2K25)",
+    "skills": ["Full-Stack Development", "LMS", "React", "UI/UX Design", "Database Management"],
+    "description": "Developed 'NextGen LMS', a full-stack Learning Management System portal, as a participant in the Synapse 2K25 off-campus hackathon. The platform provides features for course management, user enrollment, and content delivery.",
+    "date": "2025-10",
+    "pics": [],
+    "links": [
+      "https://www.linkedin.com/posts/mahesh-seerla-ba970a290_hackathon-synapse2k25-mohanbabuuniversity-ugcPost-7386377647045529600-pCiW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXeVFUBn9rTffqhOSjYb3ryVIZLkjbtQRU",
+      "https://github.com/Shanmuk4622/NextGen-synapse-2k25",
+      "https://github.com/Shanmuk4622/LMS3-",
+      "http://Nxtgenlms.lovable.app"
+    ],
+    "progress": 100
+  },
+  {
+    "id": 50,
+    "title": "ExoX: Real-Time Environmental Monitoring Dashboard",
+    "category": "Hackathon",
+    "organization": "Smart India Hackathon (SIH)",
+    "skills": ["Supabase", "Real-time DB", "Google Authentication", "IoT", "Data Visualization", "AI Chatbot", "Google Gemini"],
+    "description": "Developed 'ExoX', a modern, real-time dashboard to monitor environmental sensor data (like CO levels) from multiple IoT devices, for the Smart India Hackathon. The application was migrated from Firebase to Supabase and features real-time data streams, Google Authentication, an interactive device map, automated alerts, historical data charts, and an integrated AI chatbot (powered by Google Gemini) for natural language data queries.",
+    "date": "2025-09",
+    "pics": [],
+    "links": [
+      "https://github.com/Shanmuk4622/EcoX",
+      "https://eco-x-nine.vercel.app/dashboard"
+    ],
+    "progress": 100
+  },
+  {
+    "id": 51,
+    "title": "Brain Tumor Detection using DWT & CNNs (LDW-CNet)",
+    "category": "Research",
+    "organization": "Academic Collaboration",
+    "skills": [
+      "Deep Learning",
+      "CNN",
+      "DWT (Discrete Wavelet Transform)",
+      "Image Processing",
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "Academic Writing"
+    ],
+    "description": "Authored and developed an improved model, 'LDW-CNet', for brain tumor recognition. This new version integrates Discrete Wavelet Transform (DWT) for enhanced feature extraction and image decomposition from MRI scans before feeding them into a lightweight Convolutional Neural Network (CNN), improving detection accuracy and computational efficiency. Prepared a research paper on the methodology, findings, and performance.",
+    "date": "2025-10",
+    "pics": [],
+    "links": [],
+    "progress": 100
+  },
+  {
+    "id": 52,
+    "title": "DSA Streak App",
+    "category": "Project",
+    "organization": "Personal Project",
+    "skills": ["React", "Vercel", "UI/UX Design", "Gamification", "State Management"],
+    "description": "Developed a web application to help students track their Data Structures and Algorithms (DSA) problem-solving consistency. The app features a streak counter and a dashboard to visualize progress, motivating users to maintain a daily practice habit.",
+    "date": "2025-09",
+    "pics": [],
+    "links": [
+      "https://dsa-streak-app.vercel.app/",
+      "https://github.com/Shanmuk4622/DSA-streak-app"
+    ],
+    "progress": 100
+  },
+  {
+    "id": 53,
+    "title": "MovieFrd: Anonymous Movie Chat",
+    "category": "Project",
+    "organization": "Personal Project",
+    "skills": ["Full-Stack Development", "Supabase", "Real-time Chat", "Anonymous Authentication", "Next.js"],
+    "description": "Developing a website for college students to anonymously chat about movies and TV shows. The application uses Supabase for the backend, including authentication and real-time chat features.",
+    "date": "2025-10",
+    "pics": [],
+    "links": [
+      "https://github.com/Shanmuk4622/MovieFrd",
+      ""
+    ],
+    "progress": 40
   }
 ]
 
