@@ -44,70 +44,11 @@ I'm a passionate **B.Tech AI-ML undergraduate** at **VIT-AP University** with a 
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-Intermediate-4285F4?logo=google-cloud)
 ![Firebase](https://img.shields.io/badge/Firebase-Intermediate-FFCA28?logo=firebase)
 
-## 🏆 Key Achievements
-
-- 🥇 **Hackathon Finalist** - MSME Smart India Hackathon 2025
-- 📚 **IEEE Student Branch Vice Chair** - VIT-AP University
-- 🔬 **Research Intern** - VA-JPEG Project (Paper under review for Springer LNNS)
-- 💼 **AI Research Intern** - Tech Solutions Inc.
-- 🌟 **Deloitte Technology Virtual Intern** - Forage
-
-## 🚀 Featured Projects
-
-### 1. YOLO-AD-Framework
-**Comparative research-driven framework for anomaly detection in video streams**
-- **Tech**: Python, YOLOv5, YOLOv8, Computer Vision
-- **Features**: Real-time anomaly detection, comparative analysis
-- **Demo**: [YouTube Demo](https://youtu.be/oGDH1FkKNZc)
-- **Code**: [GitHub Repository](https://github.com/Shanmuk4622/YOLO-AD-Framework)
-
-### 2. Face Recognition & Attendance System
-**Real-time face recognition system with attendance logging**
-- **Tech**: Python, OpenCV, Face Recognition
-- **Features**: Webcam integration, timestamp logging, attendance tracking
-- **Demo**: [YouTube Demo](https://youtu.be/e-r-lOBEmJM)
-- **Code**: [GitHub Repository](https://github.com/Shanmuk4622/FaceTrack-Attendance)
-
-### 3. Anomaly Detection (Fire & Theft)
-**Hackathon project for detecting fire & theft anomalies**
-- **Tech**: Python, YOLOv8, Anomaly Detection, OpenCV
-- **Features**: Real-time detection, custom tracking algorithms
-- **Demo**: [YouTube Demo](https://youtu.be/AtcrRrPUqS8)
-- **Code**: [GitHub Repository](https://github.com/Shanmuk4622/Anomaly-Detection-Fire-Theft)
-
-### 4. Custom YOLO Model Training Pipeline
-**End-to-end custom YOLO model training using Google Colab**
-- **Tech**: Python, YOLOv8, OpenCV, Colab
-- **Features**: Data preparation, labeling, training, inference pipeline
-- **Demo**: [YouTube Demo](https://youtu.be/h1uSszfUUVU)
-- **Code**: [GitHub Repository](https://github.com/Shanmuk4622/Train-Custom-YOLO-Model)
-
-### 5. AI Virtual Mouse
-**Hand-gesture controlled virtual mouse using computer vision**
-- **Tech**: Python, Mediapipe, Computer Vision, Gesture Control
-- **Features**: Hands-free interaction, real-time gesture recognition
-- **Demo**: [YouTube Demo](https://youtu.be/ZWGJwAkexRA)
-- **Code**: [GitHub Repository](https://github.com/Shanmuk4622/AI-Virtual-Mouse-Project)
-
-## 💼 Professional Experience
-
-### AI Research Intern - Tech Solutions Inc.
-*May 2024 - Aug 2024*
-- Developed deep learning models achieving 95% accuracy in image classification
-- Implemented YOLOv8-based object detection pipeline
-- Preprocessed and augmented 50,000+ image dataset
-
-### Software Developer Intern - Innovate Co.
-*June 2023 - Aug 2023*
-- Built customer-facing web applications using React and Node.js
-- Improved code coverage by 15% through unit testing
-- Participated in agile development and code reviews
-
-### IEEE Student Branch Vice Chair - VIT-AP University
-*Sep 2023 - Present*
-- Organized technical workshops on Python, Git, and AI development
-- Managed AISP 2024 IEEE conference with 10+ volunteers
-- Increased technical event participation by 30%
+<!-- Replace src values below with your image paths -->
+<div style="display:flex;gap:16px;flex-wrap:wrap">
+    <img src="/public/screen1.png" alt="Screenshot placeholder 1 — replace path" width="640" style="border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.08);" />
+    <img src="/public/screen2.png" alt="Screenshot placeholder 2 — replace path" width="420" style="border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.08);" />
+</div>
 
 ## 🎓 Education
 
@@ -139,7 +80,20 @@ This portfolio is built with modern web technologies to showcase my work and ski
 - **Styling**: Custom CSS with responsive design
 - **Deployment**: Vite for fast development and building
 
-## 🚀 Getting Started
+## �️ Screenshots
+
+Here are two screenshots from the site (placeholder images are included in the repo at `src/assets/`). Replace these placeholder files with your final screenshots to update the visuals.
+
+<div style="display:flex;gap:16px;flex-wrap:wrap">
+	<img src="src/assets/screen1.svg" alt="Projects page screenshot" width="640" style="border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.08);" />
+	<img src="src/assets/screen2.svg" alt="Home page screenshot" width="420" style="border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.08);" />
+</div>
+
+Screenshots paths:
+- `src/assets/screen1.svg` — Projects/cards view (placeholder)
+- `src/assets/screen2.svg` — Home/hero view (placeholder)
+
+## �🚀 Getting Started
 
 ### Prerequisites
 - Node.js (v16 or higher)
