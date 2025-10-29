@@ -53,5 +53,38 @@
     "demoLink": "https://youtu.be/ZWGJwAkexRA",
     "start": "2024-09",
     "end": "2024-11"
+  },
+  {
+    "id": 6,
+    "title": "Brain Tumor Detection (LDW-CNet)",
+    "description": "Developed 'LDW-CNet', a lightweight CNN that uses Discrete Wavelet Transform (DWT) for enhanced feature extraction from MRI scans, improving tumor detection accuracy.",
+    "image": "/Project6.gif",
+    "tags": ["Deep Learning", "CNN", "DWT", "Image Processing", "Python", "TensorFlow"],
+    "githubLink": "",
+    "demoLink": "",
+    "start": "2025-08",
+    "end": "2025-10"
+  },
+  {
+    "id": 10,
+    "title": "ExoX: Environmental Monitoring",
+    "description": "A real-time dashboard to monitor IoT sensor data (like CO levels) using Supabase for real-time streams, auth, an interactive map, and a Gemini-powered AI chatbot.",
+    "image": "/Project10.gif",
+    "tags": ["Supabase", "React", "IoT", "Real-time DB", "Gemini AI", "Data Visualization"],
+    "githubLink": "https://github.com/Shanmuk4622/EcoX",
+    "demoLink": "https://eco-x-nine.vercel.app/dashboard",
+    "start": "2025-09",
+    "end": "2025-09"
+  },
+  {
+    "id": 8,
+    "title": "MovieFrd: Anonymous Movie Chat",
+    "description": "A web app for college students to anonymously chat about movies and TV shows, built with Next.js and Supabase for real-time chat and authentication.",
+    "image": "/Project9.gif",
+    "tags": ["Next.js", "Supabase", "Real-time Chat", "Full-Stack Development", "Authentication"],
+    "githubLink": "https://github.com/Shanmuk4622/MovieFrd",
+    "demoLink": "",
+    "start": "2025-10",
+    "end": "Present"
   }
 ]
