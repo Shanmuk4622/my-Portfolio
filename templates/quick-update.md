@@ -60,8 +60,8 @@ npm run update-portfolio
 # Add new project
 echo '{"title":"New Project","description":"..."}' >> src/data/projects.json
 
-# Add new experience
-echo '{"role":"New Role","company":"Company","period":"..."}' >> src/data/experience.json
+# Add new activity
+echo '{"role":"New Role","company":"Company","period":"..."}' >> src/data/activity.json
 ```
 
 ## 📅 Monthly Portfolio Review Checklist

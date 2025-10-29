@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+/* eslint-env node */
+/* eslint-disable no-undef */
+// @ts-nocheck
 
 /**
  * Batch Portfolio Update Script
@@ -60,7 +63,7 @@ function batchUpdateProjects(newProjects) {
 
 // Batch update experiences
 function batchUpdateExperiences(newExperiences) {
-  const experiences = readJsonFile('experience.json');
+  const experiences = readJsonFile('activity.json');
   
   newExperiences.forEach(newExp => {
     // Check if experience already exists
@@ -80,7 +83,7 @@ function batchUpdateExperiences(newExperiences) {
     }
   });
   
-  writeJsonFile('experience.json', experiences);
+  writeJsonFile('activity.json', experiences);
   console.log(`📊 Total experiences: ${experiences.length}`);
 }
 

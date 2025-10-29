@@ -1,5 +1,5 @@
 import React from 'react';
-import experienceData from '../data/experience.json';
+import experienceData from '../data/activity.json';
 import skillsData from '../data/skills.json';
 import './NewActivityPage.css';
 import NewActivityTimeline from '../components/NewActivityTimeline';
