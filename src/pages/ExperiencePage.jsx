@@ -12,7 +12,7 @@ const ExperiencePage = () => {
     // Load data dynamically to avoid caching issues
     const loadData = async () => {
       try {
-        const response = await fetch('/experience.json');
+  const response = await fetch('/activity.json');
         const data = await response.json();
         console.log('Loaded data:', data);
         console.log('Data type:', typeof data);
@@ -22,7 +22,7 @@ const ExperiencePage = () => {
       } catch (error) {
         console.error('Error loading data:', error);
         // Fallback to direct import
-        import('../data/experience.json').then(module => {
+        import('../data/activity.json').then(module => {
           const data = module.default;
           console.log('Fallback data:', data);
           setExperienceData(Array.isArray(data) ? data : Object.values(data));

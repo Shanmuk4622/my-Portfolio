@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+/* eslint-env node */
+/* eslint-disable no-undef */
+// @ts-nocheck
 
 /**
  * Portfolio Update Helper Script
@@ -64,11 +67,11 @@ async function addExperience() {
   experience.description = description;
   
   // Auto-generate ID
-  const experiences = readJsonFile('experience.json');
+  const experiences = readJsonFile('activity.json');
   experience.id = experiences.length + 1;
   
   experiences.unshift(experience); // Add to beginning
-  writeJsonFile('experience.json', experiences);
+  writeJsonFile('activity.json', experiences);
   
   console.log('\n🎉 Experience added successfully!');
 }
@@ -203,7 +206,7 @@ async function updateProjectDates() {
 
 // Update experience period
 async function updateExperiencePeriod() {
-  const experiences = readJsonFile('experience.json');
+  const experiences = readJsonFile('activity.json');
   
   console.log('\n📅 Current Experiences:\n');
   experiences.forEach((exp, index) => {
@@ -215,7 +218,7 @@ async function updateExperiencePeriod() {
     const exp = experiences[expIndex];
     exp.period = await question(`New period for "${exp.role}" (${exp.period}): `) || exp.period;
     
-    writeJsonFile('experience.json', experiences);
+  writeJsonFile('activity.json', experiences);
     console.log('\n✅ Experience period updated!');
   }
 }
@@ -301,7 +304,7 @@ async function showMenu() {
 async function viewCurrentData() {
   console.log('\n📊 Current Portfolio Data:\n');
   
-  const experiences = readJsonFile('experience.json');
+  const experiences = readJsonFile('activity.json');
   const projects = readJsonFile('projects.json');
   const skills = readJsonFile('skills.json');
   const certifications = readJsonFile('certifications.json');

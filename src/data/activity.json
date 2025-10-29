@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Blockchain for Supply Chain Tracking PoC",
+    "category": "Project",
+    "organization": "Blockchain Club",
+    "skills": ["Blockchain Concepts", "Supply Chain Management", "Hyperledger Fabric", "System Design"],
+    "description": "Designed a proof-of-concept for a supply chain tracking system using blockchain to ensure transparency and traceability of goods from origin to consumer. Mapped out the architecture and smart contract logic.",
+    "date": "2023-12",
+    "pics": [],
+    "links": ["https://youtu.be/CJzMldiPvxE?si=cHM0M2-3EvNk6yYh"],
+    "progress": 100
+  },
+  {
+    "id": 2,
+    "title": "NFT Minting Platform Prototype",
+    "category": "Project",
+    "organization": "Blockchain Club",
+    "skills": ["ERC-721", "IPFS", "Hardhat", "React", "Solidity"],
+    "description": "Built a web-based dApp to allow users to mint their own NFTs (ERC-721 tokens). Integrated with IPFS for decentralized metadata storage and created a simple frontend for users to upload images and mint tokens.",
+    "date": "2024-01",
+    "pics": [],
+    "links": ["https://youtu.be/ffLxL7FfTyY?si=ZiYVFzgK2HJs4KDy"],
+    "progress": 100
+  }
+]
