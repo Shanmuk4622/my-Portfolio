@@ -66,10 +66,10 @@
     "end": "2025-10"
   },
   {
-    "id": 10,
+    "id": 7,
     "title": "ExoX: Environmental Monitoring",
     "description": "A real-time dashboard to monitor IoT sensor data (like CO levels) using Supabase for real-time streams, auth, an interactive map, and a Gemini-powered AI chatbot.",
-    "image": "/Project10.gif",
+    "image": "/Project7.gif",
     "tags": ["Supabase", "React", "IoT", "Real-time DB", "Gemini AI", "Data Visualization"],
     "githubLink": "https://github.com/Shanmuk4622/EcoX",
     "demoLink": "https://eco-x-nine.vercel.app/dashboard",
@@ -80,10 +80,10 @@
     "id": 8,
     "title": "MovieFrd: Anonymous Movie Chat",
     "description": "A web app for college students to anonymously chat about movies and TV shows, built with Next.js and Supabase for real-time chat and authentication.",
-    "image": "/Project9.gif",
+    "image": "/Project8.gif",
     "tags": ["Next.js", "Supabase", "Real-time Chat", "Full-Stack Development", "Authentication"],
     "githubLink": "https://github.com/Shanmuk4622/MovieFrd",
-    "demoLink": "",
+    "demoLink": "https://moviefrd.vercel.app/",
     "start": "2025-10",
     "end": "Present"
   }
