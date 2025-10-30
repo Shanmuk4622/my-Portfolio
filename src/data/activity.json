@@ -578,18 +578,42 @@
   },
   {
     "id": 48,
-    "title": "AWS Certified Cloud Practitioner Studies",
+    "title": "AWS Academy Graduate - AWS Academy Cloud Foundations",
     "category": "Learning",
-    "organization": "Amazon Web Services",
-    "skills": ["AWS", "Cloud Computing", "S3", "EC2", "Lambda", "IAM"],
-    "description": "Initiated study and hands-on labs in preparation for the AWS Certified Cloud Practitioner exam. Focused on core cloud services, architecture principles, security, and cost optimization to build a foundational knowledge of cloud infrastructure.",
-    "date": "2025-09",
+    "organization": "Amazon Web Services (AWS)",
+    "skills": [
+      "AWS",
+      "Cloud Computing",
+      "Cloud Foundations",
+      "AWS Services",
+      "Security"
+    ],
+    "description": "Completed the AWS Academy Cloud Foundations program, gaining foundational knowledge of cloud concepts, core AWS services, security, architecture, and pricing.",
+    "date": "2025-07",
     "pics": [],
-    "links": [],
+    "links": ["https://www.credly.com/badges/51b82402-e57d-42b3-bbfb-2eb5329e0633/linked_in_profile"],
     "progress": 100
   },
   {
     "id": 49,
+    "title": "AWS Academy Graduate - Cloud Architecting - Training Badge",
+    "category": "Learning",
+    "organization": "Amazon Web Services (AWS)",
+    "skills": [
+      "AWS",
+      "Cloud Architecting",
+      "System Design",
+      "High Availability",
+      "Scalability"
+    ],
+    "description": "Completed the AWS Academy Cloud Architecting training, focusing on designing and building secure, scalable, and high-availability cloud solutions on AWS.",
+    "date": "2025-10",
+    "pics": [],
+    "links": ["https://www.credly.com/badges/c82b7928-8782-45ed-8942-9018714cb7ed/linked_in_profile"],
+    "progress": 100
+  },
+  {
+    "id": 50,
     "title": "NextGen LMS (Synapse 2K25 Hackathon)",
     "category": "Hackathon",
     "organization": "Mohan Babu University (Synapse 2K25)",
@@ -606,7 +630,7 @@
     "progress": 100
   },
   {
-    "id": 50,
+    "id": 51,
     "title": "ExoX: Real-Time Environmental Monitoring Dashboard",
     "category": "Hackathon",
     "organization": "Smart India Hackathon (SIH)",
@@ -621,7 +645,7 @@
     "progress": 100
   },
   {
-    "id": 51,
+    "id": 52,
     "title": "Brain Tumor Detection using DWT & CNNs (LDW-CNet)",
     "category": "Research",
     "organization": "Academic Collaboration",
@@ -642,7 +666,7 @@
     "progress": 100
   },
   {
-    "id": 52,
+    "id": 53,
     "title": "DSA Streak App",
     "category": "Project",
     "organization": "Personal Project",
@@ -657,7 +681,7 @@
     "progress": 100
   },
   {
-    "id": 53,
+    "id": 54,
     "title": "MovieFrd: Anonymous Movie Chat",
     "category": "Project",
     "organization": "Personal Project",
