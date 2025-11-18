@@ -694,6 +694,18 @@
       ""
     ],
     "progress": 40
+  },
+  {
+    "id": 55,
+    "title": "Multi-Modal Forensic Detection of AI-Generated Images",
+    "category": "Research Project",
+    "organization": "VIT-AP University (CSE4006 Project)",
+    "skills": ["PyTorch", "Computer Vision", "Deep Learning", "Forensics (FFT/DWT/ELA)", "EfficientNet"],
+    "description": "Conducted extensive research on detecting AI-generated media. Initially developed a complex multi-modal architecture (HybridForensicsNetV2) fusing spatial and forensic features. Pivoted to a robust, data-centric EfficientNet-B0 model ('UltraSimpleModel') which achieved a state-of-the-art 99.5% F1-score, proving spatial artifacts alone are sufficient for detection in high-res generators.",
+    "date": "2025-11",
+    "pics": [],
+    "links": ["https://colab.research.google.com/drive/1WLLSv_o2RLz-Ufy_TaEHzfD6CQGTV6D0?usp=sharing", "https://colab.research.google.com/drive/1leD_uYb72X28Dmc6RKc8lUYUIMabpZJP?usp=sharing", "https://www.linkedin.com/posts/shanmukesh-bonala_deeplearning-computervision-ai-activity-7396066909512851458-EzKZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXeVFUBn9rTffqhOSjYb3ryVIZLkjbtQRU"],
+    "progress": 100
   }
 ]
 

@@ -86,5 +86,17 @@
     "demoLink": "https://moviefrd.vercel.app/",
     "start": "2025-10",
     "end": "Present"
+  },
+
+  {
+    "id": 9,
+    "title": "Multi-Modal Forensic Detection of AI-Generated Images",
+    "description": "Conducted extensive research on detecting AI-generated media. Pivoted from complex multi-modal architectures to a robust, data-centric EfficientNet-B0 model achieving a state-of-the-art 99.5% F1-score.",
+    "image": "/Project9.gif",
+    "tags": ["PyTorch", "Computer Vision", "Deep Learning", "Forensics (FFT/DWT/ELA)", "EfficientNet"],
+    "githubLink": "https://colab.research.google.com/drive/1WLLSv_o2RLz-Ufy_TaEHzfD6CQGTV6D0?usp=sharing",
+    "demoLink": "https://www.linkedin.com/posts/shanmukesh-bonala_deeplearning-computervision-ai-activity-7396066909512851458-EzKZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXeVFUBn9rTffqhOSjYb3ryVIZLkjbtQRU",
+    "start": "2025-11",
+    "end": "2025-11"
   }
 ]
