@@ -35,21 +35,19 @@ const iconMap = {
 };
 
 const ExperienceTimeline = ({ experienceData }) => {
-  // Debug: Log the data
-  console.log('ExperienceTimeline received data:', experienceData);
-  console.log('ExperienceTimeline data length:', experienceData?.length);
-  console.log('ExperienceTimeline data type:', typeof experienceData);
-  console.log('ExperienceTimeline is array:', Array.isArray(experienceData));
-  
   // Ensure we have valid data
-  if (!experienceData || !Array.isArray(experienceData)) {
-    console.error('Invalid experience data:', experienceData);
-    return <div>No experience data available</div>;
+  if (!experienceData || !Array.isArray(experienceData) || experienceData.length === 0) {
+    return (
+      <div className="experience-timeline-empty">
+        <p>No experience data available</p>
+      </div>
+    );
   }
   
   // Sort by date, newest first, with fallback for invalid dates
-  const sortedData = experienceData.sort((a, b) => {
-    const dateA = new Date(a.date + '-01'); // Add day to make it a valid date
+  // Use spread operator to avoid mutating the original array
+  const sortedData = [...experienceData].sort((a, b) => {
+    const dateA = new Date(a.date + '-01');
     const dateB = new Date(b.date + '-01');
     
     // Handle invalid dates
@@ -59,9 +57,6 @@ const ExperienceTimeline = ({ experienceData }) => {
     
     return dateB - dateA; // Newest first
   });
-
-  console.log('Sorted data length:', sortedData.length);
-  console.log('First few items:', sortedData.slice(0, 3));
 
   const getCategoryColor = (category) => {
     const colors = {

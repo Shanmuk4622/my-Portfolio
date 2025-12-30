@@ -1,34 +1,27 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './ContactPage.css';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaPaperPlane, FaCheckCircle, FaExclamationCircle } from 'react-icons/fa';
 
 const ContactPage = () => {
   const form = useRef();
   const [status, setStatus] = useState(''); // To display success/error messages
 
-  // --- REPLACE WITH YOUR EMAILJS CREDENTIALS ---
-  const serviceID = 'service_nu6gdlc';
-  const templateID = 'template_yod87gi';
-  const publicKey = 'uVlZp0TJV-qUQaERz';
-
-  // --- READ KEYS FROM ENVIRONMENT VARIABLES ---
-  // const serviceID = import.meta.env.VITE_APP_EMAILJS_SERVICE_ID;
-  // const templateID = import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID;
-  // const publicKey = import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY;
-  // ---------------------------------------------
+  // Read keys from environment variables (recommended for security)
+  // Create a .env file with VITE_EMAILJS_SERVICE_ID, VITE_EMAILJS_TEMPLATE_ID, VITE_EMAILJS_PUBLIC_KEY
+  const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_nu6gdlc';
+  const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_yod87gi';
+  const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'uVlZp0TJV-qUQaERz';
 
   const sendEmail = (e) => {
     e.preventDefault();
     setStatus('sending');
 
     emailjs.sendForm(serviceID, templateID, form.current, publicKey)
-      .then((result) => {
-          console.log(result.text);
+      .then(() => {
           setStatus('success');
           form.current.reset(); // Reset the form after successful submission
-      }, (error) => {
-          console.log(error.text);
+      }, () => {
           setStatus('error');
       });
   };

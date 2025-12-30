@@ -21,18 +21,21 @@
 .skill-chip {
   display: flex;
   align-items: center;
-  background: #f0f4f8;
-  color: #222;
+  background: var(--bg-color);
+  color: var(--text-primary-color);
   padding: 0.5rem 1.2rem;
   border-radius: 20px;
   font-size: 1rem;
   font-weight: 500;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border: 1px solid var(--border-color);
+  transition: all 0.2s ease;
 }
 .skill-chip:hover {
   background: var(--primary-color);
   color: #fff;
+  border-color: var(--primary-color);
+  transform: translateY(-2px);
 }
 .skill-icon {
   font-size: 1.5rem;

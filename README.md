@@ -3,103 +3,92 @@
 > **Deep Learning Enthusiast | Computer Vision Developer | AI Researcher**
 
 [![React](https://img.shields.io/badge/React-19.1.0-61DAFB?logo=react)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-7.0.4-646CFF?logo=vite)](https://vitejs.dev/)
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python)](https://python.org/)
-[![AI/ML](https://img.shields.io/badge/AI%2FML-Expert-FF6B6B)](https://github.com/Shanmuk4622)
+[![Vite](https://img.shields.io/badge/Vite-7.0.6-646CFF?logo=vite)](https://vitejs.dev/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-12.x-FF0055?logo=framer)](https://www.framer.com/motion/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## 👨‍💻 About Me
+🔗 **Live Demo**: [shanmukeshbonala.vercel.app](https://shanmukeshbonala.vercel.app/)
 
-I'm a passionate **B.Tech AI-ML undergraduate** at **VIT-AP University** with a strong focus on **Deep Learning**, **Computer Vision**, and real-world applications of **Artificial Intelligence**. I love building innovative projects that bridge research and practical impact, from autonomous vehicles to intelligent image understanding systems.
+---
 
-### 🎯 What I Do
-- **Computer Vision & Deep Learning**: YOLO frameworks, OpenCV, TensorFlow, PyTorch
-- **AI Research**: Anomaly detection, semantic-aware compression, custom model training
-- **Full-Stack Development**: React.js, Node.js, Flutter applications
-- **Research & Innovation**: Hackathon finalist, IEEE leadership, research publications
+## ✨ Features
+
+- 🌓 **Dark/Light Mode** - Seamless theme switching with system preference detection
+- 📱 **Fully Responsive** - Optimized for all devices (mobile, tablet, desktop)
+- ⚡ **Fast Performance** - Built with Vite for lightning-fast load times
+- 🎨 **Modern UI/UX** - Clean design with smooth animations using Framer Motion
+- 📧 **Contact Form** - Functional email integration with EmailJS
+- 🔄 **Smooth Navigation** - Page transitions with scroll-to-top functionality
+- ♿ **Accessible** - ARIA labels, focus states, and semantic HTML
+- 🎭 **Type Animation** - Dynamic role display on homepage
+
+## 📸 Screenshots
+
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![Light Mode](public/screen-light.png) | ![Dark Mode](public/screen-dark.png) |
 
 ## 🛠️ Tech Stack
 
-### Programming Languages
-![Python](https://img.shields.io/badge/Python-Expert-3776AB?logo=python)
-![JavaScript](https://img.shields.io/badge/JavaScript-Advanced-F7DF1E?logo=javascript)
-![C++](https://img.shields.io/badge/C++-Intermediate-00599C?logo=c%2B%2B)
-![Java](https://img.shields.io/badge/Java-Intermediate-ED8B00?logo=java)
-![Dart](https://img.shields.io/badge/Dart-Intermediate-0175C2?logo=dart)
+| Category | Technologies |
+|----------|-------------|
+| **Frontend** | React 19, React Router 7, Framer Motion |
+| **Styling** | CSS3 with CSS Variables, Responsive Design |
+| **Build Tool** | Vite 7 |
+| **Icons** | React Icons |
+| **Email** | EmailJS |
+| **Animations** | Framer Motion, React Type Animation |
+| **Deployment** | Vercel |
 
-### AI/ML & Computer Vision
-![TensorFlow](https://img.shields.io/badge/TensorFlow-Expert-FF6F00?logo=tensorflow)
-![PyTorch](https://img.shields.io/badge/PyTorch-Expert-EE4C2C?logo=pytorch)
-![OpenCV](https://img.shields.io/badge/OpenCV-Expert-5C3EE8?logo=opencv)
-![YOLO](https://img.shields.io/badge/YOLO-Expert-00FFFF)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Advanced-F7931E?logo=scikit-learn)
+## 📁 Project Structure
 
-### Web & Mobile Development
-![React](https://img.shields.io/badge/React-Advanced-61DAFB?logo=react)
-![Node.js](https://img.shields.io/badge/Node.js-Intermediate-339933?logo=node.js)
-![Flutter](https://img.shields.io/badge/Flutter-Intermediate-02569B?logo=flutter)
+```
+my-portfolio/
+├── public/                 # Static assets (images, JSON data)
+├── src/
+│   ├── assets/            # Images, resume PDF
+│   ├── components/        # Reusable React components
+│   │   ├── Navbar.jsx     # Navigation with mobile menu
+│   │   ├── Footer.jsx     # Footer with social links
+│   │   ├── ProjectCard.jsx # Project display cards
+│   │   ├── SkillsGrid.jsx  # Skills display grid
+│   │   ├── ActivityTimeline.jsx
+│   │   ├── ExperienceTimeline.jsx
+│   │   ├── ScrollToTop.jsx # Auto scroll on navigation
+│   │   └── BackToTop.jsx   # Floating back-to-top button
+│   ├── context/           # React Context (Theme)
+│   ├── data/              # JSON data files
+│   │   ├── projects.json
+│   │   ├── skills.json
+│   │   ├── activity.json
+│   │   ├── experience.json
+│   │   └── certifications.json
+│   ├── pages/             # Page components
+│   │   ├── HomePage.jsx
+│   │   ├── AboutPage.jsx
+│   │   ├── ProjectsPage.jsx
+│   │   ├── ExperiencePage.jsx
+│   │   ├── ActivityPage.jsx
+│   │   ├── CertificationsPage.jsx
+│   │   ├── ContactPage.jsx
+│   │   └── NotFoundPage.jsx  # 404 page
+│   ├── App.jsx            # Main app component
+│   ├── main.jsx           # Entry point
+│   └── index.css          # Global styles & CSS variables
+├── scripts/               # Utility scripts
+├── templates/             # Update templates
+└── package.json
+```
 
-### Tools & Platforms
-![Git](https://img.shields.io/badge/Git-Expert-F05032?logo=git)
-![Docker](https://img.shields.io/badge/Docker-Intermediate-2496ED?logo=docker)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-Intermediate-4285F4?logo=google-cloud)
-![Firebase](https://img.shields.io/badge/Firebase-Intermediate-FFCA28?logo=firebase)
-
-<!-- Replace src values below with your image paths -->
-<div style="display:flex;gap:16px;flex-wrap:wrap">
-    <img src="/public/screen1.png" alt="Screenshot placeholder 1 — replace path" width="640" style="border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.08);" />
-    <img src="/public/screen2.png" alt="Screenshot placeholder 2 — replace path" width="420" style="border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.08);" />
-</div>
-
-## 🎓 Education
-
-**B.Tech in Artificial Intelligence & Machine Learning**  
-*VIT-AP University* | 2022 - 2026 (Expected)
-
-## 📜 Certifications
-
-- **Deloitte Australia Technology Virtual Internship** - Forage (2025)
-- **Cyber Security Essentials** - CertX (2025)
-- **AI for Everyone** - CredsVerse (2025)
-- **Machine Learning Foundations** - Skills Network (IBM) (2024)
-- **AI-ML Virtual Internship Program** - Wadhwani Foundation (2023)
-- **IEEE Student Member** - IEEE Hyderabad Section (2025)
-
-## 🌟 Research & Publications
-
-- **VA-JPEG Project**: Semantic-aware image compression framework combining JPEG with embedded YOLOv8 metadata
-- **Research Paper**: Under review for Springer Lecture Notes in Networks and Systems (LNNS)
-- **Research Focus**: Computer vision, anomaly detection, semantic compression
-
-## 📱 Portfolio Website
-
-This portfolio is built with modern web technologies to showcase my work and skills:
-
-- **Frontend**: React.js with modern CSS and animations
-- **Routing**: React Router for seamless navigation
-- **Animations**: Framer Motion for smooth user experience
-- **Styling**: Custom CSS with responsive design
-- **Deployment**: Vite for fast development and building
-
-## �️ Screenshots
-
-Here are two screenshots from the site (placeholder images are included in the repo at `src/assets/`). Replace these placeholder files with your final screenshots to update the visuals.
-
-<div style="display:flex;gap:16px;flex-wrap:wrap">
-	<img src="src/assets/screen1.svg" alt="Projects page screenshot" width="640" style="border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.08);" />
-	<img src="src/assets/screen2.svg" alt="Home page screenshot" width="420" style="border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.08);" />
-</div>
-
-Screenshots paths:
-- `src/assets/screen1.svg` — Projects/cards view (placeholder)
-- `src/assets/screen2.svg` — Home/hero view (placeholder)
-
-## �🚀 Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
+
+- **Node.js** v18 or higher
+- **npm** or **yarn**
 
 ### Installation
+
 ```bash
 # Clone the repository
 git clone https://github.com/Shanmuk4622/my-portfolio.git
@@ -112,38 +101,114 @@ npm install
 
 # Start development server
 npm run dev
-
-# Build for production
-npm run build
 ```
 
+The app will be available at `http://localhost:5173`
+
 ### Available Scripts
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
 
-## 📞 Let's Connect!
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server with HMR |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview production build locally |
+| `npm run lint` | Run ESLint for code quality |
 
-I'm always open to discussing new opportunities, collaborations, or just chatting about AI and technology!
+## 🎨 Customization
 
-- 📧 **Email**: [shanmueksh.bonala@gmail.com]
-- 💼 **LinkedIn**: [https://www.linkedin.com/in/shanmukesh-bonala/]
-- 🐙 **GitHub**: [@Shanmuk4622](https://github.com/Shanmuk4622)
-- 🐦 **Twitter**: [https://x.com/Shanmukesh4622]
-- 📱 **Portfolio**: [https://shanmukeshbonala.vercel.app/]
+### Theme Colors
+
+Edit CSS variables in `src/index.css`:
+
+```css
+:root {
+  --primary-color: #007bff;
+  --bg-color: #ffffff;
+  --text-primary-color: #1a1a2e;
+  /* ... more variables */
+}
+
+body.dark {
+  --primary-color: #4fd1c5;
+  --bg-color: #0f0f1a;
+  --text-primary-color: #f5f6fa;
+  /* ... more variables */
+}
+```
+
+### Content Updates
+
+Update your portfolio content by editing JSON files in `src/data/`:
+
+- **projects.json** - Your projects with links, tags, and dates
+- **skills.json** - Skills organized by category
+- **activity.json** - Activities, achievements, and hackathons
+- **certifications.json** - Professional certifications
+
+### Email Setup (Contact Form)
+
+1. Create an account at [EmailJS](https://www.emailjs.com/)
+2. Update credentials in `src/pages/ContactPage.jsx`:
+
+```javascript
+const serviceID = 'your_service_id';
+const templateID = 'your_template_id';
+const publicKey = 'your_public_key';
+```
+
+## 👨‍💻 About Me
+
+I'm a passionate **B.Tech AI-ML undergraduate** at **VIT-AP University** with a strong focus on:
+
+- 🧠 **Deep Learning** & Neural Networks
+- 👁️ **Computer Vision** (YOLO, OpenCV, TensorFlow, PyTorch)
+- 🔬 **AI Research** (Anomaly Detection, Semantic Compression)
+- 💻 **Full-Stack Development** (React, Node.js, Flutter)
+
+### 🏆 Highlights
+
+- 🥇 Smart India Hackathon Finalist
+- 📰 Research paper under review at Springer LNNS
+- 🎓 IEEE Student Member & Vice-Chair
+- 🚀 9+ AI/ML projects with live demos
+
+## 📞 Connect With Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/shanmukesh-bonala/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/Shanmuk4622">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://x.com/Shanmukesh4622">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  </a>
+  <a href="mailto:shanmueksh.bonala@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
 
 ## 🤝 Open to Opportunities
 
 I'm actively seeking:
-- **AI/ML Research Internships**
-- **Computer Vision Engineering Roles**
-- **Full-Stack Development Positions**
-- **Research Collaborations**
-- **Open Source Contributions**
+
+- 🔬 AI/ML Research Internships
+- 👁️ Computer Vision Engineering Roles
+- 💻 Full-Stack Development Positions
+- 🤝 Research Collaborations
+- 🌐 Open Source Contributions
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-⭐ **Star this repository if you found it helpful!** ⭐
+<p align="center">
+  <b>⭐ Star this repository if you found it helpful! ⭐</b>
+</p>
 
-*Built with ❤️ using React, Vite, and modern web technologies*
+<p align="center">
+  Built with using React, Vite, and modern web technologies
+</p>

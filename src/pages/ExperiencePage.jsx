@@ -7,28 +7,31 @@ import SkillsGrid from '../components/SkillsGrid';
 const ExperiencePage = () => {
   const [experienceData, setExperienceData] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Load data dynamically to avoid caching issues
     const loadData = async () => {
       try {
-  const response = await fetch('/activity.json');
+        const response = await fetch('/activity.json');
+        if (!response.ok) {
+          throw new Error('Failed to fetch data');
+        }
         const data = await response.json();
-        console.log('Loaded data:', data);
-        console.log('Data type:', typeof data);
-        console.log('Is array:', Array.isArray(data));
-        console.log('Length:', data.length);
         setExperienceData(Array.isArray(data) ? data : Object.values(data));
-      } catch (error) {
-        console.error('Error loading data:', error);
+      } catch (err) {
+        setError(err.message);
         // Fallback to direct import
-        import('../data/activity.json').then(module => {
+        try {
+          const module = await import('../data/activity.json');
           const data = module.default;
-          console.log('Fallback data:', data);
           setExperienceData(Array.isArray(data) ? data : Object.values(data));
-        });
+          setError(null);
+        } catch {
+          setError('Failed to load experience data');
+        }
+      } finally {
+        setLoading(false);
       }
-      setLoading(false);
     };
     
     loadData();
@@ -38,8 +41,20 @@ const ExperiencePage = () => {
     return (
       <div className="experience-container">
         <h1 className="experience-title">Experience & Projects</h1>
-        <div style={{ textAlign: 'center', padding: '2rem' }}>
-          Loading experiences...
+        <div className="loading-state">
+          <div className="loading-spinner"></div>
+          <p>Loading experiences...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (error && experienceData.length === 0) {
+    return (
+      <div className="experience-container">
+        <h1 className="experience-title">Experience & Projects</h1>
+        <div className="error-state">
+          <p>Unable to load experiences. Please try again later.</p>
         </div>
       </div>
     );
@@ -53,10 +68,8 @@ const ExperiencePage = () => {
       <div className="timeline-section">
         <h2 className="section-title">
           All Experiences
-          <span className="experience-count">({experienceData ? experienceData.length : 0})</span>
+          <span className="experience-count">({experienceData.length})</span>
         </h2>
-
-        
         <ExperienceTimeline experienceData={experienceData} />
       </div>
 

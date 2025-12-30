@@ -1,34 +1,52 @@
 import React, { useContext, useState } from 'react';
-import { Link } from 'react-router-dom';
-import { ThemeContext } from '../context/ThemeContext'; // Import our context
-import { FaSun, FaMoon } from 'react-icons/fa';
+import { Link, NavLink } from 'react-router-dom';
+import { ThemeContext } from '../context/ThemeContext';
+import { FaSun, FaMoon, FaBars, FaTimes } from 'react-icons/fa';
 import './Navbar.css';
 
 const Navbar = () => {
-
-  const { theme, toggleTheme } = useContext(ThemeContext); // Use the context
+  const { theme, toggleTheme } = useContext(ThemeContext);
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const closeMenu = () => setMenuOpen(false);
+
   return (
-    <nav className="navbar">
-      <Link to="/" className="navbar-brand">Bonala Shanmukesh</Link>
+    <nav className="navbar" role="navigation" aria-label="Main navigation">
+      <Link to="/" className="navbar-brand" onClick={closeMenu}>
+        Bonala Shanmukesh
+      </Link>
       <button
         className={`navbar-hamburger${menuOpen ? ' open' : ''}`}
         onClick={() => setMenuOpen((open) => !open)}
-        aria-label="Toggle navigation menu"
+        aria-label={menuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+        aria-expanded={menuOpen}
       >
-        <span />
-        <span />
-        <span />
+        {menuOpen ? <FaTimes /> : <FaBars />}
       </button>
       <div className={`navbar-links${menuOpen ? ' open' : ''}`}>
-        <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
-        <Link to="/projects" onClick={() => setMenuOpen(false)}>Projects</Link>
-        <Link to="/experience" onClick={() => setMenuOpen(false)}>Experience</Link>
-        <Link to="/activity" onClick={() => setMenuOpen(false)}>Activity</Link>
-        <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
-        <Link to="/certifications" onClick={() => setMenuOpen(false)}>Certifications</Link>
-        <button onClick={toggleTheme} className="theme-toggle-button">
+        <NavLink to="/about" onClick={closeMenu} className={({ isActive }) => isActive ? 'active' : ''}>
+          About
+        </NavLink>
+        <NavLink to="/projects" onClick={closeMenu} className={({ isActive }) => isActive ? 'active' : ''}>
+          Projects
+        </NavLink>
+        <NavLink to="/experience" onClick={closeMenu} className={({ isActive }) => isActive ? 'active' : ''}>
+          Experience
+        </NavLink>
+        <NavLink to="/activity" onClick={closeMenu} className={({ isActive }) => isActive ? 'active' : ''}>
+          Activity
+        </NavLink>
+        <NavLink to="/certifications" onClick={closeMenu} className={({ isActive }) => isActive ? 'active' : ''}>
+          Certifications
+        </NavLink>
+        <NavLink to="/contact" onClick={closeMenu} className={({ isActive }) => isActive ? 'active' : ''}>
+          Contact
+        </NavLink>
+        <button 
+          onClick={toggleTheme} 
+          className="theme-toggle-button"
+          aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
+        >
           {theme === 'light' ? <FaMoon /> : <FaSun />}
         </button>
       </div>

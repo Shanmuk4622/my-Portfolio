@@ -35,21 +35,19 @@ const iconMap = {
 };
 
 const ActivityTimeline = ({ activityData }) => {
-  // Debug: Log the data
-  console.log('ActivityTimeline received data:', activityData);
-  console.log('ActivityTimeline data length:', activityData?.length);
-  console.log('ActivityTimeline data type:', typeof activityData);
-  console.log('ActivityTimeline is array:', Array.isArray(activityData));
-  
   // Ensure we have valid data
-  if (!activityData || !Array.isArray(activityData)) {
-    console.error('Invalid activity data:', activityData);
-    return <div>No activity data available</div>;
+  if (!activityData || !Array.isArray(activityData) || activityData.length === 0) {
+    return (
+      <div className="activity-timeline-empty">
+        <p>No activity data available</p>
+      </div>
+    );
   }
   
   // Sort by date, newest first, with fallback for invalid dates
-  const sortedData = activityData.sort((a, b) => {
-    const dateA = new Date(a.date + '-01'); // Add day to make it a valid date
+  // Use spread operator to avoid mutating the original array
+  const sortedData = [...activityData].sort((a, b) => {
+    const dateA = new Date(a.date + '-01');
     const dateB = new Date(b.date + '-01');
     
     // Handle invalid dates
@@ -59,9 +57,6 @@ const ActivityTimeline = ({ activityData }) => {
     
     return dateB - dateA; // Newest first
   });
-
-  console.log('Sorted data length:', sortedData.length);
-  console.log('First few items:', sortedData.slice(0, 3));
 
   const getCategoryColor = (category) => {
     const colors = {

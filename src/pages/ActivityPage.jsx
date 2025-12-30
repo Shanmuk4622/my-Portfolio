@@ -6,9 +6,6 @@ import ActivityTimeline from '../components/ActivityTimeline';
 import SkillsGrid from '../components/SkillsGrid';
 
 const ActivityPage = () => {
-  // Debug: Log the raw data
-  console.log('Raw activity data:', experienceData?.length, 'items');
-
   return (
     <div className="activity-container">
       <h1 className="activity-title">Activities & Achievements</h1>

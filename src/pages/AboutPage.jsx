@@ -5,14 +5,25 @@ import SkillsGrid from '../components/SkillsGrid';
 import skillsData from '../data/skills.json';
 import profileImage from '../assets/profile.png';
 import resumePDF from '../assets/resume.pdf';
+import { FaDownload } from 'react-icons/fa';
 
 const AboutPage = () => {
   return (
     <div className="about-container">
       <div className="about-main">
         <h1 className="about-title">About Me</h1>
-        <img src={profileImage} alt="Bonala Shanmukesh" style={{ width: '180px', borderRadius: '50%', marginBottom: '1.5rem', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }} />
-        <a href={resumePDF} download="BonalaShanmukesh_Resume.pdf" className="btn btn-primary" style={{ marginBottom: '1.5rem', display: 'inline-block' }}>Download Resume</a>
+        <img 
+          src={profileImage} 
+          alt="Bonala Shanmukesh" 
+          className="about-profile-image"
+        />
+        <a 
+          href={resumePDF} 
+          download="BonalaShanmukesh_Resume.pdf" 
+          className="btn btn-primary about-resume-btn"
+        >
+          <FaDownload /> Download Resume
+        </a>
         <p className="about-text">
           Hello! I'm <strong>Bonala Shanmukesh</strong>, a B.Tech AI-ML undergrad at <strong>VIT-AP University</strong> (SCOPE CDE Dept). My passion is bridging the gap between cutting-edge AI research and real-world impact.
         </p>
