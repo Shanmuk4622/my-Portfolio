@@ -718,6 +718,21 @@
     "pics": [],
     "links": ["https://orcid.org/0009-0008-3651-4077"],
     "progress": 100
+  },
+  {
+    "id": 57,
+    "title": "AI-Integrated Smart Mobility and Urban Safety System",
+    "category": "Full-Stack Project",
+    "organization": "Personal Project",
+    "skills": ["Python", "React", "YOLOv8", "Supabase", "Google Maps API", "OpenCV", "SORT"],
+    "description": "Architected a Hybrid Edge-Cloud system for real-time traffic management. Implemented Computer Vision pipelines (YOLOv8 + SORT) to process CCTV feeds at 30 FPS, detecting vehicle counts and violations (Wrong-Way, Red Light) with 95% accuracy. Built a Real-time Pub/Sub architecture using Supabase to sync edge data with a React dashboard, achieving <200ms latency.",
+    "date": "2025-12",
+    "pics": [],
+    "links": [
+      "https://github.com/Shanmuk4622/AI-Integrated-Smart-mobility-and-Urban-Safety-System",
+      "https://ai-integrated-smart-mobility-and-urban-safety-system-94jxxbr4f.vercel.app"
+    ],
+    "progress": 100
   }
 ]
 

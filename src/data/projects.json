@@ -98,5 +98,16 @@
     "demoLink": "https://www.linkedin.com/posts/shanmukesh-bonala_deeplearning-computervision-ai-activity-7396066909512851458-EzKZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXeVFUBn9rTffqhOSjYb3ryVIZLkjbtQRU",
     "start": "2025-11",
     "end": "2025-11"
+  },
+  {
+    "id": 10,
+    "title": "AI-Integrated Smart Mobility and Urban Safety System",
+    "description": "Architected a Hybrid Edge-Cloud system for real-time traffic management using YOLOv8 and SORT for 30 FPS vehicle detection and violation monitoring, integrated with a React/Supabase dashboard for <200ms latency.",
+    "image": "/Project10.gif",
+    "tags": ["Python", "React", "YOLOv8", "Supabase", "Google Maps API", "OpenCV", "SORT"],
+    "githubLink": "https://github.com/Shanmuk4622/AI-Integrated-Smart-mobility-and-Urban-Safety-System",
+    "demoLink": "https://ai-integrated-smart-mobility-and-urban-safety-system-94jxxbr4f.vercel.app",
+    "start": "2025-11",
+    "end": "2025-12"
   }
 ]
