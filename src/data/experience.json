@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "role": "Full-Stack Development Intern",
+        "company": "IBM SkillBuild",
+        "location": "Remote",
+        "duration": "Dec 2025 - Jan 2026",
+        "description": [
+            "Architected and deployed LMS3, a production-grade Learning Management System portal for Mohan Babu University.",
+            "Implemented secure user authentication and streamlined digital course delivery for students and faculty.",
+            "Optimized database management systems to handle real-time student-faculty interactions and content updates."
+        ],
+        "skills": [
+            "React",
+            "Node.js",
+            "LMS Architecture",
+            "Database Management"
+        ],
+        "links": [
+            "https://drive.google.com/file/d/1DT5LSCcobGSQxIkZFQIUq59fGg_mSBo5/view"
+        ]
+    },
+    {
+        "id": 2,
+        "role": "Official Peer Reviewer",
+        "company": "Journal of Intelligent & Robotic Systems (Springer Nature)",
+        "location": "International",
+        "duration": "Nov 2025 - Present",
+        "description": [
+            "Appointed as a technical reviewer for a high-impact Springer Nature journal (Scopus Indexed).",
+            "Conducted critical analysis and provided technical feedback on research manuscripts in the fields of robotics and intelligent systems.",
+            "Ensured academic integrity and technical accuracy of state-of-the-art AI research before publication."
+        ],
+        "skills": [
+            "Critical Analysis",
+            "Robotics Research",
+            "Academic Integrity",
+            "Technical Writing"
+        ],
+        "links": [
+            "https://orcid.org/0009-0008-3651-4077"
+        ]
+    },
+    {
+        "id": 4,
+        "role": "Technology Virtual Intern",
+        "company": "Deloitte (via Forage)",
+        "location": "Virtual",
+        "duration": "July 2025",
+        "description": [
+            "Executed data reconciliation tasks using Python and Pandas to analyze complex telemetry datasets.",
+            "Drafted a comprehensive proposal for a secure, real-time intranet dashboard for corporate monitoring.",
+            "Practiced Agile methodologies and professional technical reporting within a simulated corporate environment."
+        ],
+        "skills": [
+            "Python",
+            "Pandas",
+            "Agile Methodologies",
+            "Business Communication"
+        ],
+        "links": [
+            "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_KpzcgKMdrAYSeuxCt_1753417154738_completion_certificate.pdf"
+        ]
+    },
+    {
+        "id": 5,
+        "role": "Conference Event Manager & Volunteer",
+        "company": "IEEE Student Branch",
+        "location": "VIT-AP University",
+        "duration": "Oct 2024 - Present",
+        "description": [
+            "Managed logistical operations and speaker coordination for the IEEE AISP 2024-25 Conference.",
+            "Led community outreach programs to promote STEM and Computer Vision technologies to undergraduate students.",
+            "Recognized with the 'IEEE Milestone Award' for exceptional dedication and service to the student branch."
+        ],
+        "skills": [
+            "Event Management",
+            "Networking",
+            "Public Speaking",
+            "Logistics"
+        ],
+        "links": [
+            "https://www.linkedin.com/posts/shanmukesh-bonala_vitap-ieee-outreach-activity-7300559581296922624-61kv/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXeVFUBn9rTffqhOSjYb3ryVIZLkjbtQRU"
+        ]
+    },
+    {
+        "id": 6,
+        "role": "Independent AI/ML Researcher",
+        "company": "Academic Collaboration / SSRN",
+        "location": "Remote",
+        "duration": "Aug 2025 - Present",
+        "description": [
+            "Authored and published multiple preprints on SSRN focusing on YOLOv10 performance and DWT-based medical image classification.",
+            "Developed 'LDW-CNet', an interpretable CNN model achieving high accuracy in Brain Tumor detection via Learnable Discrete Wavelet Transforms.",
+            "Presented technical findings at NIT Puducherry (ICDTSES 2026)."
+        ],
+        "skills": [
+            "Deep Learning",
+            "PyTorch",
+            "Computer Vision",
+            "Signal Processing"
+        ],
+        "links": [
+            "https://scholar.google.com/citations?hl=en&authuser=2&user=7fVbOlwAAAAJ"
+        ]
+    }
+]
