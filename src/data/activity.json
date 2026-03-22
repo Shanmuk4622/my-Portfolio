@@ -4,11 +4,18 @@
     "title": "Blockchain for Supply Chain Tracking PoC",
     "category": "Project",
     "organization": "Blockchain Club",
-    "skills": ["Blockchain Concepts", "Supply Chain Management", "Hyperledger Fabric", "System Design"],
+    "skills": [
+      "Blockchain Concepts",
+      "Supply Chain Management",
+      "Hyperledger Fabric",
+      "System Design"
+    ],
     "description": "Designed a proof-of-concept for a supply chain tracking system using blockchain to ensure transparency and traceability of goods from origin to consumer. Mapped out the architecture and smart contract logic.",
     "date": "2023-12",
     "pics": [],
-    "links": ["https://youtu.be/CJzMldiPvxE?si=cHM0M2-3EvNk6yYh"],
+    "links": [
+      "https://youtu.be/CJzMldiPvxE?si=cHM0M2-3EvNk6yYh"
+    ],
     "progress": 100
   },
   {
@@ -16,11 +23,19 @@
     "title": "NFT Minting Platform Prototype",
     "category": "Project",
     "organization": "Blockchain Club",
-    "skills": ["ERC-721", "IPFS", "Hardhat", "React", "Solidity"],
+    "skills": [
+      "ERC-721",
+      "IPFS",
+      "Hardhat",
+      "React",
+      "Solidity"
+    ],
     "description": "Built a web-based dApp to allow users to mint their own NFTs (ERC-721 tokens). Integrated with IPFS for decentralized metadata storage and created a simple frontend for users to upload images and mint tokens.",
     "date": "2024-01",
     "pics": [],
-    "links": ["https://youtu.be/ffLxL7FfTyY?si=ZiYVFzgK2HJs4KDy"],
+    "links": [
+      "https://youtu.be/ffLxL7FfTyY?si=ZiYVFzgK2HJs4KDy"
+    ],
     "progress": 100
   },
   {
@@ -28,11 +43,19 @@
     "title": "Decentralized Voting System dApp",
     "category": "Project",
     "organization": "Blockchain Club",
-    "skills": ["Solidity", "Smart Contracts", "Web3.js", "React", "Truffle"],
+    "skills": [
+      "Solidity",
+      "Smart Contracts",
+      "Web3.js",
+      "React",
+      "Truffle"
+    ],
     "description": "Developed a proof-of-concept for a secure and transparent decentralized voting application on the Ethereum blockchain. Wrote and tested smart contracts for registering voters and tallying votes.",
     "date": "2024-02",
     "pics": [],
-    "links": ["https://youtu.be/6P_5d0kIrvg"],
+    "links": [
+      "https://youtu.be/6P_5d0kIrvg"
+    ],
     "progress": 100
   },
   {
@@ -40,7 +63,12 @@
     "title": "Laser Tag Event Organizer",
     "category": "Event",
     "organization": "Blockchain Club (VTAPP)",
-    "skills": ["Event Management", "Team Leadership", "Logistics", "Community Engagement"],
+    "skills": [
+      "Event Management",
+      "Team Leadership",
+      "Logistics",
+      "Community Engagement"
+    ],
     "description": "Organized and managed a multi-level laser tag event for the VTAPP Blockchain Club, handling logistics, team coordination, and event promotion to engage club members.",
     "date": "2024-02",
     "pics": [],
@@ -52,7 +80,11 @@
     "title": "Blockchain Club Core Team Certificate",
     "category": "Achievement",
     "organization": "Blockchain Club",
-    "skills": ["Team Contribution", "Technical Committee", "Blockchain"],
+    "skills": [
+      "Team Contribution",
+      "Technical Committee",
+      "Blockchain"
+    ],
     "description": "Received a certificate of appreciation for contributions as a core team member of the Blockchain Club's technical committee.",
     "date": "2024-06",
     "pics": [],
@@ -66,7 +98,12 @@
     "title": "Math Club Hackathon - 3rd Place",
     "category": "Hackathon",
     "organization": "Math Club",
-    "skills": ["Problem Solving", "Creative Thinking", "Algorithmic Skills", "Teamwork"],
+    "skills": [
+      "Problem Solving",
+      "Creative Thinking",
+      "Algorithmic Skills",
+      "Teamwork"
+    ],
     "description": "Achieved 3rd position in the Math Club Hackathon, recognizing exceptional skills, creativity, and dedication in solving complex challenges.",
     "date": "2024-09",
     "pics": [],
@@ -80,11 +117,18 @@
     "title": "Travel Translator Website",
     "category": "Project",
     "organization": "Personal Startup Prototype",
-    "skills": ["Full-Stack Development", "Web Design", "Product Management"],
+    "skills": [
+      "Full-Stack Development",
+      "Web Design",
+      "Product Management"
+    ],
     "description": "Developed a prototype website for a startup idea: 'Local Student Language Translators for Travelers'. Designed the basic user matching flow and informational pages, and prepared a feature backlog for payments and verification.",
     "date": "2024-09",
     "pics": [],
-    "links": ["","https://github.com/Shanmuk4622/Linguamate"],
+    "links": [
+      "",
+      "https://github.com/Shanmuk4622/Linguamate"
+    ],
     "progress": 100
   },
   {
@@ -92,11 +136,18 @@
     "title": "Farm-Easy: A Social Platform for Farmers",
     "category": "Hackathon",
     "organization": "Smart India Hackathon (SIH)",
-    "skills": ["Full-Stack Development", "React", "Firebase/Supabase", "UI/UX Design", "Social Networking Features", "Community Building"],
+    "skills": [
+      "Full-Stack Development",
+      "React",
+      "Firebase/Supabase",
+      "UI/UX Design",
+      "Social Networking Features",
+      "Community Building"
+    ],
     "description": "Conceptualized and developed 'Farm-Easy' for the Smart India Hackathon 2024-25. The project aims to create a professional networking and community platform for farmers, enabling knowledge sharing, resource pooling, and direct communication, similar to a 'LinkedIn for the agricultural sector'.",
     "date": "2024-09",
     "pics": [],
-    "links": [ 
+    "links": [
       "https://github.com/Shanmuk4622/Farm-Easy",
       "https://www.linkedin.com/posts/eluchuri-bavaghna-6b3ab1284_smartindiahackathon-innovation-agriculture-ugcPost-7238225177048760322--zbx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXeVFUBn9rTffqhOSjYb3ryVIZLkjbtQRU"
     ],
@@ -107,11 +158,16 @@
     "title": "IEEE Student Membership",
     "category": "Membership",
     "organization": "IEEE",
-    "skills": ["Professional Networking", "Research Exposure"],
+    "skills": [
+      "Professional Networking",
+      "Research Exposure"
+    ],
     "description": "Active IEEE student member, participating in technical events, paper sessions, and volunteering for student initiatives to expand research network across AI/ML communities.",
     "date": "2024-10",
     "pics": [],
-    "links": ["https://drive.google.com/file/d/1CeUVDX93OtnuyoxrxKSfFHwpz15fWlwz/view?usp=sharing"],
+    "links": [
+      "https://drive.google.com/file/d/1CeUVDX93OtnuyoxrxKSfFHwpz15fWlwz/view?usp=sharing"
+    ],
     "progress": 100
   },
   {
@@ -119,7 +175,12 @@
     "title": "Workshop on LLMs and Vector Databases",
     "category": "Learning",
     "organization": "IEEE CS VIT-AP Special Interest Group",
-    "skills": ["LLMs", "Vector Databases", "RAG", "AI/ML"],
+    "skills": [
+      "LLMs",
+      "Vector Databases",
+      "RAG",
+      "AI/ML"
+    ],
     "description": "Participated in a hands-on workshop covering Large Language Models (LLMs) and Vector Databases, gaining insights into Retrieval-Augmented Generation (RAG) and practical AI applications.",
     "date": "2024-10",
     "pics": [],
@@ -133,7 +194,12 @@
     "title": "AISP 2024-25 Conference Event Manager",
     "category": "Event",
     "organization": "IEEE",
-    "skills": ["Event Management", "Networking", "Technical Communication", "Logistics"],
+    "skills": [
+      "Event Management",
+      "Networking",
+      "Technical Communication",
+      "Logistics"
+    ],
     "description": "Volunteered and successfully conducted the IEEE AISP Conference, contributing to the seamless execution of the event. Supported session logistics, speaker coordination, and interacted with leading researchers to gain profound insights from technical talks.",
     "date": "2024-11",
     "pics": [],
@@ -147,11 +213,18 @@
     "title": "AI Virtual Mouse",
     "category": "Project",
     "organization": "Personal Project",
-    "skills": ["Python", "Computer Vision", "MediaPipe", "OpenCV"],
+    "skills": [
+      "Python",
+      "Computer Vision",
+      "MediaPipe",
+      "OpenCV"
+    ],
     "description": "Built a virtual mouse controlled by hand gestures using MediaPipe for hand tracking and OpenCV for video processing. Mapped hand landmarks to operating system cursor events, including movement, clicks, and dragging. Optimized smoothing algorithms to reduce cursor jitter in real-time.",
     "date": "2024-12",
     "pics": [],
-    "links": ["https://youtu.be/ZWGJwAkexRA"],
+    "links": [
+      "https://youtu.be/ZWGJwAkexRA"
+    ],
     "progress": 100
   },
   {
@@ -159,11 +232,18 @@
     "title": "Invisible Cloak Effect",
     "category": "Project",
     "organization": "Personal Project",
-    "skills": ["Python", "Computer Vision", "OpenCV", "Image Processing"],
+    "skills": [
+      "Python",
+      "Computer Vision",
+      "OpenCV",
+      "Image Processing"
+    ],
     "description": "Implemented a real-time 'invisible cloak' visual effect using OpenCV. The script uses HSV color masking to segment a target color (the cloak) and replaces it with a static background frame, demonstrating a simple visual effects pipeline.",
     "date": "2024-12",
     "pics": [],
-    "links": [""],
+    "links": [
+      ""
+    ],
     "progress": 100
   },
   {
@@ -171,11 +251,20 @@
     "title": "Train Custom YOLO Model Pipeline",
     "category": "Project",
     "organization": "Personal Project",
-    "skills": ["Python", "YOLO", "Data Engineering", "Google Colab"],
+    "skills": [
+      "Python",
+      "YOLO",
+      "Data Engineering",
+      "Google Colab"
+    ],
     "description": "Built a complete pipeline for training custom YOLO models. The workflow includes scripts for video-to-frame conversion, a labeling workflow, standardizing datasets to YOLO format for Colab training, and automating model evaluation and export.",
     "date": "2024-12",
     "pics": [],
-    "links": ["https://github.com/Shanmuk4622/Anomaly-Detection-Fire-Theft","https://github.com/Shanmuk4622/Flutter-app-read-test-from-image", "https://github.com/Shanmuk4622/YOLO_-AD-Phase1"],
+    "links": [
+      "https://github.com/Shanmuk4622/Anomaly-Detection-Fire-Theft",
+      "https://github.com/Shanmuk4622/Flutter-app-read-test-from-image",
+      "https://github.com/Shanmuk4622/YOLO_-AD-Phase1"
+    ],
     "progress": 100
   },
   {
@@ -183,7 +272,13 @@
     "title": "Autonomous Front-Follow Drone",
     "category": "Idea",
     "organization": "Personal Concept Study",
-    "skills": ["Drones", "Computer Vision", "SLAM", "Obstacle Avoidance", "R&D"],
+    "skills": [
+      "Drones",
+      "Computer Vision",
+      "SLAM",
+      "Obstacle Avoidance",
+      "R&D"
+    ],
     "description": "Conceptualized a drone that follows a subject from the front for better cinematic framing. Surveyed obstacle-avoidance strategies and on-device SLAM options, and drafted a provisional roadmap for prototyping and patent exploration.",
     "date": "2024-12",
     "pics": [],
@@ -195,11 +290,19 @@
     "title": "Surveillance Anomaly Detection (CCTV)",
     "category": "Project",
     "organization": "Hackathon Project",
-    "skills": ["Python", "Computer Vision", "YOLO", "Anomaly Detection"],
+    "skills": [
+      "Python",
+      "Computer Vision",
+      "YOLO",
+      "Anomaly Detection"
+    ],
     "description": "Prototyped a system for detecting abnormal activities (e.g., accidents, theft) from CCTV streams. Integrated event-triggered alerts for urgent incidents and benchmarked baseline detectors and false-alarm mitigations.",
     "date": "2025-01",
     "pics": [],
-    "links": ["https://github.com/Shanmuk4622/YOLO-AD-Framework", "https://github.com/Shanmuk4622/Anomaly-Detection-Fire-Theft"],
+    "links": [
+      "https://github.com/Shanmuk4622/YOLO-AD-Framework",
+      "https://github.com/Shanmuk4622/Anomaly-Detection-Fire-Theft"
+    ],
     "progress": 100
   },
   {
@@ -207,11 +310,18 @@
     "title": "Space Invader Clone (Pygame)",
     "category": "Project",
     "organization": "Personal Project",
-    "skills": ["Python", "Pygame", "Game Development"],
+    "skills": [
+      "Python",
+      "Pygame",
+      "Game Development"
+    ],
     "description": "Developed a clone of the classic Space Invader game using Pygame. Implemented core mechanics, including player and enemy movement, multiple concurrent bullets, and collision detection logic. Tuned frame pacing for consistent gameplay at 60 FPS.",
     "date": "2025-02",
     "pics": [],
-    "links": ["https://github.com/Shanmuk4622/Space_Invadeders_pygames", "https://github.com/Shanmuk4622/Flappy_bird"],
+    "links": [
+      "https://github.com/Shanmuk4622/Space_Invadeders_pygames",
+      "https://github.com/Shanmuk4622/Flappy_bird"
+    ],
     "progress": 100
   },
   {
@@ -219,11 +329,18 @@
     "title": "XO Game (Tic-Tac-Toe)",
     "category": "Project",
     "organization": "Personal Project",
-    "skills": ["Flutter", "Dart", "Game Development", "UI/UX Design"],
+    "skills": [
+      "Flutter",
+      "Dart",
+      "Game Development",
+      "UI/UX Design"
+    ],
     "description": "Built a Tic-Tac-Toe (XO) game in Flutter, featuring modes for local two-player and a simple AI opponent. Implemented win-detection logic, score persistence, and refactored UI widgets for responsiveness.",
     "date": "2025-03",
     "pics": [],
-    "links": ["https://github.com/Shanmuk4622/App-Phase-1-XOgame"],
+    "links": [
+      "https://github.com/Shanmuk4622/App-Phase-1-XOgame"
+    ],
     "progress": 100
   },
   {
@@ -231,11 +348,18 @@
     "title": "ALU Design (Verilog & Logisim) ",
     "category": "Learning",
     "organization": "Coursework / Academic",
-    "skills": ["Verilog", "HDL", "Logisim", "Digital Logic Design"],
+    "skills": [
+      "Verilog",
+      "HDL",
+      "Logisim",
+      "Digital Logic Design"
+    ],
     "description": "Wrote Verilog modules for multi-width ALU operations (Addition, Subtraction, Multiplication, Division, etc,.. ), including arithmetic and comparison logic. Created Logisim circuits and testbenches to verify functionality, and documented edge cases and bitwise operator behavior.",
     "date": "2025-03",
     "pics": [],
-    "links": ["https://github.com/Shanmuk4622/ALU-Desigh---ECE2002-Assignment"],
+    "links": [
+      "https://github.com/Shanmuk4622/ALU-Desigh---ECE2002-Assignment"
+    ],
     "progress": 100
   },
   {
@@ -243,7 +367,12 @@
     "title": "IEEE Student Outreach Volunteer",
     "category": "Event",
     "organization": "IEEE Student Branch (VIT-AP)",
-    "skills": ["Public Speaking", "Mentorship", "Community Outreach", "STEM Advocacy"],
+    "skills": [
+      "Public Speaking",
+      "Mentorship",
+      "Community Outreach",
+      "STEM Advocacy"
+    ],
     "description": "Participated in an IEEE outreach program to promote technology and engineering to students. Demonstrated projects and shared insights about pursuing a career in the tech field.",
     "date": "2025-03",
     "pics": [],
@@ -257,11 +386,19 @@
     "title": "Handwritten Text to Digital Text (OCR)",
     "category": "Project",
     "organization": "Personal Project",
-    "skills": ["Python", "OCR", "TrOCR", "NLP", "Deep Learning"],
+    "skills": [
+      "Python",
+      "OCR",
+      "TrOCR",
+      "NLP",
+      "Deep Learning"
+    ],
     "description": "Developed an OCR system to convert handwritten text from images into digital format. Prepared dataset curation scripts and a pre-processing pipeline, planning a TrOCR + NLP post-correction stage for improved recognition accuracy.",
     "date": "2025-03",
     "pics": [],
-    "links": ["https://github.com/Shanmuk4622/Hand-Written-Text-reg"],
+    "links": [
+      "https://github.com/Shanmuk4622/Hand-Written-Text-reg"
+    ],
     "progress": 100
   },
   {
@@ -269,11 +406,20 @@
     "title": "FaceTrack Attendance System",
     "category": "Project",
     "organization": "Hackathon Project",
-    "skills": ["Python", "Computer Vision", "Face Recognition", "OpenCV"],
+    "skills": [
+      "Python",
+      "Computer Vision",
+      "Face Recognition",
+      "OpenCV"
+    ],
     "description": "Developed a webcam-based attendance logger using face recognition. The system encodes known faces from a directory and logs attendance with timestamps into a CSV file, featuring basic UI overlays and duplicate-entry prevention.",
     "date": "2025-04",
     "pics": [],
-    "links": ["https://github.com/Shanmuk4622/FaceTrack-Attendance", "https://youtu.be/e-r-lOBEmJM", "https://youtu.be/2lLw4fSkAE8"],
+    "links": [
+      "https://github.com/Shanmuk4622/FaceTrack-Attendance",
+      "https://youtu.be/e-r-lOBEmJM",
+      "https://youtu.be/2lLw4fSkAE8"
+    ],
     "progress": 100
   },
   {
@@ -281,11 +427,18 @@
     "title": "Fire Detection using YOLOv8",
     "category": "Project",
     "organization": "Personal Project",
-    "skills": ["Python", "YOLOv8", "OpenCV", "Computer Vision"],
+    "skills": [
+      "Python",
+      "YOLOv8",
+      "OpenCV",
+      "Computer Vision"
+    ],
     "description": "Used YOLOv8 and OpenCV to detect fire in real-time video streams. The system adds bounding-box overlays and includes simple hooks for triggering alerts. Evaluated the model's sensitivity versus false positives on varied scenes.",
     "date": "2025-04",
     "pics": [],
-    "links": ["https://github.com/Shanmuk4622/Fire-Detection-using-YOLOv8"],
+    "links": [
+      "https://github.com/Shanmuk4622/Fire-Detection-using-YOLOv8"
+    ],
     "progress": 100
   },
   {
@@ -293,11 +446,19 @@
     "title": "Timetable Reminder App",
     "category": "Project",
     "organization": "Personal Project",
-    "skills": ["Flutter", "Dart", "Mobile Development", "OCR", "Firebase"],
+    "skills": [
+      "Flutter",
+      "Dart",
+      "Mobile Development",
+      "OCR",
+      "Firebase"
+    ],
     "description": "Built a Flutter mobile app that extracts timetable information from an uploaded image and sets up automatic class reminders. Structured the code by screens, services, and utilities for better maintainability.",
     "date": "2025-04",
     "pics": [],
-    "links": ["https://github.com/Shanmuk4622/Flutter-app-read-test-from-image"],
+    "links": [
+      "https://github.com/Shanmuk4622/Flutter-app-read-test-from-image"
+    ],
     "progress": 40
   },
   {
@@ -305,11 +466,21 @@
     "title": "YOLO Anomaly Detection Framework",
     "category": "Research",
     "organization": "Personal Research",
-    "skills": ["YOLOv5", "YOLOv8", "Python", "Computer Vision", "Research"],
+    "skills": [
+      "YOLOv5",
+      "YOLOv8",
+      "Python",
+      "Computer Vision",
+      "Research"
+    ],
     "description": "Conducted a comparative study of YOLOv5 and YOLOv8 pipelines for anomaly detection in videos. Standardized experiment tracking and result tables, and drafted a research-style report with methods and findings.",
     "date": "2025-04",
     "pics": [],
-    "links": ["https://github.com/Shanmuk4622/Anomaly-Detection-Fire-Theft","https://github.com/Shanmuk4622/Flutter-app-read-test-from-image", "https://github.com/Shanmuk4622/YOLO_-AD-Phase1"],
+    "links": [
+      "https://github.com/Shanmuk4622/Anomaly-Detection-Fire-Theft",
+      "https://github.com/Shanmuk4622/Flutter-app-read-test-from-image",
+      "https://github.com/Shanmuk4622/YOLO_-AD-Phase1"
+    ],
     "progress": 100
   },
   {
@@ -317,11 +488,18 @@
     "title": "Smart Campus AI System (Google Hackathon)",
     "category": "Hackathon",
     "organization": "Google Hackathon",
-    "skills": ["Google Cloud", "AI Chatbots", "Watsonx Assistant", "Team Collaboration"],
+    "skills": [
+      "Google Cloud",
+      "AI Chatbots",
+      "Watsonx Assistant",
+      "Team Collaboration"
+    ],
     "description": "Co-built an AI-Powered Smart Campus system for a Google Hackathon. The platform included an event schedule maker, a chatbot for FAQs, a book recommendation system, and campus news. Scoped cloud usage to free-tier services for rapid prototyping.",
     "date": "2025-04",
     "pics": [],
-    "links": ["https://github.com/Shanmuk4622/Student_Dashboard"],
+    "links": [
+      "https://github.com/Shanmuk4622/Student_Dashboard"
+    ],
     "progress": 100
   },
   {
@@ -329,11 +507,20 @@
     "title": "License Plate Recognition (ALPR)",
     "category": "Project",
     "organization": "Personal Project",
-    "skills": ["Python", "Computer Vision", "OCR", "YOLO", "Software Architecture"],
+    "skills": [
+      "Python",
+      "Computer Vision",
+      "OCR",
+      "YOLO",
+      "Software Architecture"
+    ],
     "description": "Developed an Automatic License Plate Recognition (ALPR) system. The project was modularized into file operations, video processing, settings management, and a main execution script. Explored various OCR approaches for plate text extraction.",
     "date": "2025-04",
     "pics": [],
-    "links": ["https://youtu.be/S10q5aWlGPU", "https://youtu.be/-gsb9Mh20gs"],
+    "links": [
+      "https://youtu.be/S10q5aWlGPU",
+      "https://youtu.be/-gsb9Mh20gs"
+    ],
     "progress": 100
   },
   {
@@ -341,11 +528,19 @@
     "title": "Gunny Bags Counting System",
     "category": "Project",
     "organization": "Personal Project",
-    "skills": ["Python", "Computer Vision", "Object Tracking", "OpenCV"],
+    "skills": [
+      "Python",
+      "Computer Vision",
+      "Object Tracking",
+      "OpenCV"
+    ],
     "description": "Designed an automated counting pipeline for objects (e.g., gunny bags) in a video feed. The system uses line-crossing logic with object tracking to log counts with timestamps for downstream analytics. Tuned tracker stability for crowded scenes.",
     "date": "2025-04",
     "pics": [],
-    "links": ["https://github.com/Shanmuk4622/Gunny-Bags-Counting", "https://youtu.be/oGDH1FkKNZc"],
+    "links": [
+      "https://github.com/Shanmuk4622/Gunny-Bags-Counting",
+      "https://youtu.be/oGDH1FkKNZc"
+    ],
     "progress": 100
   },
   {
@@ -353,11 +548,20 @@
     "title": "Cloud-Based Fire Detection API",
     "category": "Project",
     "organization": "Personal Project",
-    "skills": ["Docker", "FastAPI", "Python", "AWS/GCP", "REST APIs", "YOLOv8"],
+    "skills": [
+      "Docker",
+      "FastAPI",
+      "Python",
+      "AWS/GCP",
+      "REST APIs",
+      "YOLOv8"
+    ],
     "description": "Developed and deployed a scalable REST API for real-time fire detection. The YOLOv8 model was containerized using Docker and deployed on a cloud platform (GCP Cloud Run), exposing it as an endpoint. The service is designed for low latency and includes basic API key authentication.",
     "date": "2025-04",
     "pics": [],
-    "links": ["https://github.com/Shanmuk4622/Fire-Detection-using-YOLOv8"],
+    "links": [
+      "https://github.com/Shanmuk4622/Fire-Detection-using-YOLOv8"
+    ],
     "progress": 100
   },
   {
@@ -365,11 +569,18 @@
     "title": "Handwritten Digit Recognition (Feedforward Neural Network)",
     "category": "Project",
     "organization": "Personal Project",
-    "skills": ["Python", "NumPy", "Deep Learning", "Neural Networks"],
+    "skills": [
+      "Python",
+      "NumPy",
+      "Deep Learning",
+      "Neural Networks"
+    ],
     "description": "Implemented a feedforward neural network from scratch in NumPy for MNIST digit recognition. Wrote utility functions for forward/backward pass, loss calculation, and accuracy measurement. Logged experiments to validate the effects of learning rate and regularization.",
     "date": "2025-05",
     "pics": [],
-    "links": ["https://github.com/Shanmuk4622/Handwritten-Digit-FFNN"],
+    "links": [
+      "https://github.com/Shanmuk4622/Handwritten-Digit-FFNN"
+    ],
     "progress": 100
   },
   {
@@ -377,11 +588,21 @@
     "title": "VisionDrive: Self Driving Autonomous Car",
     "category": "Project",
     "organization": "ECS Project",
-    "skills": ["ESP32-CAM", "ESP8266", "OpenCV", "Machine Learning", "Python", "Hardware Integration"],
+    "skills": [
+      "ESP32-CAM",
+      "ESP8266",
+      "OpenCV",
+      "Machine Learning",
+      "Python",
+      "Hardware Integration"
+    ],
     "description": "Built an RC car platform with an ESP32-CAM for video streaming and an ESP8266 for control. The 'Auto Mode' uses OpenCV and ML on a PC to predict an obstacle-free path, while the 'Manual Mode' features a dual-view UI with a path overlay.",
     "date": "2025-05",
     "pics": [],
-    "links": ["https://youtu.be/h1uSszfUUVU", "https://github.com/Shanmuk4622/ECS-1-self-Driving-vehicle-"],
+    "links": [
+      "https://youtu.be/h1uSszfUUVU",
+      "https://github.com/Shanmuk4622/ECS-1-self-Driving-vehicle-"
+    ],
     "progress": 100
   },
   {
@@ -389,11 +610,18 @@
     "title": "Video Object Detection Pipeline",
     "category": "Project",
     "organization": "Personal Project",
-    "skills": ["Python", "OpenCV", "YOLO", "Performance Optimization"],
+    "skills": [
+      "Python",
+      "OpenCV",
+      "YOLO",
+      "Performance Optimization"
+    ],
     "description": "Implemented a robust and optimized video object detection pipeline using OpenCV and YOLO. Added performance tweaks like frame skipping and resizing for real-time FPS, and standardized visualization and timing overlays.",
     "date": "2025-05",
     "pics": [],
-    "links": ["https://youtu.be/S10q5aWlGPU"],
+    "links": [
+      "https://youtu.be/S10q5aWlGPU"
+    ],
     "progress": 100
   },
   {
@@ -401,7 +629,13 @@
     "title": "VA-JPEG: Hybrid Image Codec",
     "category": "Research",
     "organization": "Personal Research",
-    "skills": ["Python", "YOLOv8", "Image Compression", "OpenCV", "Academic Writing"],
+    "skills": [
+      "Python",
+      "YOLOv8",
+      "Image Compression",
+      "OpenCV",
+      "Academic Writing"
+    ],
     "description": "Proposed and developed VA-JPEG, a hybrid image codec that embeds an auxiliary semantic payload into standard JPEG files. Built a YOLOv8-based semantic branch with region-aware quantization and wrote a research paper reporting improved detection on the compressed images.",
     "date": "2025-06",
     "pics": [],
@@ -413,11 +647,19 @@
     "title": "Object Tracking & Counting System Refinement",
     "category": "Project",
     "organization": "Personal Project",
-    "skills": ["Python", "Computer Vision", "Object Tracking", "Sort Algorithm"],
+    "skills": [
+      "Python",
+      "Computer Vision",
+      "Object Tracking",
+      "Sort Algorithm"
+    ],
     "description": "Refined the object counting system by defining reliable tracking requirements. Made counting lines configurable for different scenes and stabilized object ID assignment to minimize double counts.",
     "date": "2025-06",
     "pics": [],
-    "links": ["https://github.com/Shanmuk4622/Gunny-Bags-Counting", "https://youtu.be/oGDH1FkKNZc"],
+    "links": [
+      "https://github.com/Shanmuk4622/Gunny-Bags-Counting",
+      "https://youtu.be/oGDH1FkKNZc"
+    ],
     "progress": 50
   },
   {
@@ -425,11 +667,19 @@
     "title": "Tiny Object Detection with YOLOv8-Nano",
     "category": "Research",
     "organization": "Personal Research",
-    "skills": ["YOLOv8", "Python", "Computer Vision", "Benchmarking", "Academic Writing"],
+    "skills": [
+      "YOLOv8",
+      "Python",
+      "Computer Vision",
+      "Benchmarking",
+      "Academic Writing"
+    ],
     "description": "Authored a research paper evaluating the performance of YOLOv8-Nano on real-time traffic datasets, specifically focusing on tiny object detection. Benchmarked speed vs. accuracy trade-offs for deployment and created comparative charts.",
     "date": "2025-06",
     "pics": [],
-    "links": [""],
+    "links": [
+      ""
+    ],
     "progress": 100
   },
   {
@@ -437,11 +687,19 @@
     "title": "Treasure Hunt Platform",
     "category": "Project",
     "organization": "MSC Club Project",
-    "skills": ["Full-Stack Development", "Supabase", "React", "Real-time DB"],
+    "skills": [
+      "Full-Stack Development",
+      "Supabase",
+      "React",
+      "Real-time DB"
+    ],
     "description": "Built a full-stack web application for a treasure hunt game. The platform features user authentication, checkpoints with QR code scanning, and participant dashboards. Used Supabase for auth, database, and real-time updates, and included admin controls for live progress monitoring.",
     "date": "2025-07",
     "pics": [],
-    "links": ["https://github.com/Shanmuk4622/Treasure-Hunt", "https://shanmuk4622.github.io/Treasure-Hunt/"],
+    "links": [
+      "https://github.com/Shanmuk4622/Treasure-Hunt",
+      "https://shanmuk4622.github.io/Treasure-Hunt/"
+    ],
     "progress": 100
   },
   {
@@ -449,11 +707,17 @@
     "title": "Smart Campus Bot (Watsonx) IBM GEN-AI",
     "category": "Project",
     "organization": "Internship Project",
-    "skills": ["AI Chatbots", "Watsonx Assistant", "Conversational AI"],
+    "skills": [
+      "AI Chatbots",
+      "Watsonx Assistant",
+      "Conversational AI"
+    ],
     "description": "Prototyped a conversational AI campus assistant using Watsonx Assistant. The bot covers campus events, schedules, and FAQs by integrating simple retrieval and intent-based flows. Outlined a roadmap for adding analytics and admin tools.",
     "date": "2025-06",
     "pics": [],
-    "links": ["https://youtu.be/GmCYQmvmWFU"],
+    "links": [
+      "https://youtu.be/GmCYQmvmWFU"
+    ],
     "progress": 100
   },
   {
@@ -461,11 +725,19 @@
     "title": "Deloitte Technology Virtual Internship",
     "category": "Job Simulation",
     "organization": "Forage",
-    "skills": ["Python", "Data Reconciliation", "Technical Writing", "Agile Methodologies"],
+    "skills": [
+      "Python",
+      "Data Reconciliation",
+      "Technical Writing",
+      "Agile Methodologies"
+    ],
     "description": "Completed the Deloitte Technology Virtual Internship on Forage. Tasks included reconciling telemetry data using Python and pandas, documenting findings, and drafting a secure intranet dashboard proposal with real-time status updates.",
     "date": "2025-07",
     "pics": [],
-    "links": ["https://github.com/Shanmuk4622/deloitte-Internship","https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_KpzcgKMdrAYSeuxCt_1753417154738_completion_certificate.pdf"],
+    "links": [
+      "https://github.com/Shanmuk4622/deloitte-Internship",
+      "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_KpzcgKMdrAYSeuxCt_1753417154738_completion_certificate.pdf"
+    ],
     "progress": 100
   },
   {
@@ -473,7 +745,11 @@
     "title": "ICDPN 2025 Paper Submission",
     "category": "Research",
     "organization": "Conference Submission",
-    "skills": ["Academic Writing", "Research Publication", "LaTeX"],
+    "skills": [
+      "Academic Writing",
+      "Research Publication",
+      "LaTeX"
+    ],
     "description": "Prepared and submitted a research manuscript to the ICDPN 2025 conference (proceedings to be published by Springer LNNS, Scopus Indexed). Finalized formatting, references, and all submission artifacts against the deadline.",
     "date": "2025-07",
     "pics": [],
@@ -485,11 +761,19 @@
     "title": "Portfolio Website Setup",
     "category": "Project",
     "organization": "Personal Project",
-    "skills": ["React", "Vite", "Supabase", "UI/UX Design", "Content Strategy"],
+    "skills": [
+      "React",
+      "Vite",
+      "Supabase",
+      "UI/UX Design",
+      "Content Strategy"
+    ],
     "description": "Planned the personal portfolio's structure and content strategy. Built a React + Vite scaffold with basic routing and sections, and set up a Supabase backend for future contact/form storage.",
     "date": "2025-08",
     "pics": [],
-    "links": ["https://shanmukeshbonala.vercel.app/"],
+    "links": [
+      "https://shanmukeshbonala.vercel.app/"
+    ],
     "progress": 100
   },
   {
@@ -497,7 +781,12 @@
     "title": "NVIDIA Academic Grant Proposal",
     "category": "Research",
     "organization": "Personal Initiative",
-    "skills": ["Federated Learning", "LLMs", "Model Compression", "Grant Writing"],
+    "skills": [
+      "Federated Learning",
+      "LLMs",
+      "Model Compression",
+      "Grant Writing"
+    ],
     "description": "Prepared an academic grant proposal for NVIDIA. Outlined research topics in federated learning and efficient LLM training (compression, pruning, fine-tuning), mapping resources and milestones. Drafted problem statements and expected outcomes.",
     "date": "2025-08",
     "pics": [],
@@ -509,7 +798,16 @@
     "title": "Brain Tumor Recognition with CNNs",
     "category": "Project",
     "organization": "Research Project",
-    "skills": ["Python", "CNN", "Deep Learning", "TensorFlow", "Keras", "ResNet", "VGG", "Netron"],
+    "skills": [
+      "Python",
+      "CNN",
+      "Deep Learning",
+      "TensorFlow",
+      "Keras",
+      "ResNet",
+      "VGG",
+      "Netron"
+    ],
     "description": "Studied CNN fundamentals and applied transfer learning with ResNet and VGG for brain tumor recognition. Set up Google Colab notebooks and dataset pipelines, and used Netron for model architecture visualization.",
     "date": "2025-08",
     "pics": [],
@@ -521,11 +819,20 @@
     "title": "SmartTrackX (MSME Hackathon)",
     "category": "Hackathon",
     "organization": "MSME",
-    "skills": ["IoT", "GPS", "RFID", "Predictive Analytics", "Pitching", "Dashboard Design"],
+    "skills": [
+      "IoT",
+      "GPS",
+      "RFID",
+      "Predictive Analytics",
+      "Pitching",
+      "Dashboard Design"
+    ],
     "description": "Designed and presented 'SmartTrackX' for an MSME hackathon. The concept involved tracking kits (GPS/RFID) and a CV-driven dashboard for route/inventory optimization and predictive alerts. Refined final slides and narrative for presentation.",
     "date": "2025-08",
     "pics": [],
-    "links": ["https://youtu.be/seiQsjQnY1g"],
+    "links": [
+      "https://youtu.be/seiQsjQnY1g"
+    ],
     "progress": 100
   },
   {
@@ -533,11 +840,18 @@
     "title": "Walmart Sparkathon Participation",
     "category": "Hackathon",
     "organization": "Walmart",
-    "skills": ["Supply Chain", "Data Analytics", "Problem Solving", "Team Collaboration"],
+    "skills": [
+      "Supply Chain",
+      "Data Analytics",
+      "Problem Solving",
+      "Team Collaboration"
+    ],
     "description": "Participated in the Walmart Sparkathon (Supply Chain theme). Explored supply-chain computer vision analytics and demand signals, sketched a proof-of-concept for anomaly alerts in fulfillment flows, and drafted an evaluation plan.",
     "date": "2025-08",
     "pics": [],
-    "links": ["https://youtu.be/seiQsjQnY1g"],
+    "links": [
+      "https://youtu.be/seiQsjQnY1g"
+    ],
     "progress": 100
   },
   {
@@ -545,7 +859,12 @@
     "title": "Data Security & Encryption Study",
     "category": "Learning",
     "organization": "Personal Study",
-    "skills": ["Cybersecurity", "Encryption", "Risk Assessment", "Presentation"],
+    "skills": [
+      "Cybersecurity",
+      "Encryption",
+      "Risk Assessment",
+      "Presentation"
+    ],
     "description": "Researched various encryption schemes and evaluation criteria for a project brief. Compiled findings into a concise presentation with diagrams, outlining actionable recommendations and risk considerations.",
     "date": "2025-08",
     "pics": [],
@@ -557,7 +876,11 @@
     "title": "Paper Presenting: LDW-CNet (Tumor Detection)",
     "category": "Research",
     "organization": "Academic Collaboration",
-    "skills": ["Academic Writing", "Scientific Editing", "Deep Learning"],
+    "skills": [
+      "Academic Writing",
+      "Scientific Editing",
+      "Deep Learning"
+    ],
     "description": "Authored the 'Limitations' and 'Future Work' sections for a tumor-detection research paper. Clarified dataset scope, generalization caveats, and next steps. Drafted an extension plan for segmentation and multi-center validation.",
     "date": "2025-08",
     "pics": [],
@@ -569,7 +892,13 @@
     "title": "Research on MLOps for Edge CV",
     "category": "Research",
     "organization": "Personal Research",
-    "skills": ["MLOps", "Model Monitoring", "CI/CD", "Docker", "Edge Computing"],
+    "skills": [
+      "MLOps",
+      "Model Monitoring",
+      "CI/CD",
+      "Docker",
+      "Edge Computing"
+    ],
     "description": "Conducted a study on best practices for deploying and monitoring computer vision models on edge devices. Researched CI/CD pipelines for model updates, data drift detection techniques, and performance logging strategies to ensure reliability in production environments.",
     "date": "2025-08",
     "pics": [],
@@ -591,7 +920,9 @@
     "description": "Completed the AWS Academy Cloud Foundations program, gaining foundational knowledge of cloud concepts, core AWS services, security, architecture, and pricing.",
     "date": "2025-07",
     "pics": [],
-    "links": ["https://www.credly.com/badges/51b82402-e57d-42b3-bbfb-2eb5329e0633/linked_in_profile"],
+    "links": [
+      "https://www.credly.com/badges/51b82402-e57d-42b3-bbfb-2eb5329e0633/linked_in_profile"
+    ],
     "progress": 100
   },
   {
@@ -609,7 +940,9 @@
     "description": "Completed the AWS Academy Cloud Architecting training, focusing on designing and building secure, scalable, and high-availability cloud solutions on AWS.",
     "date": "2025-10",
     "pics": [],
-    "links": ["https://www.credly.com/badges/c82b7928-8782-45ed-8942-9018714cb7ed/linked_in_profile"],
+    "links": [
+      "https://www.credly.com/badges/c82b7928-8782-45ed-8942-9018714cb7ed/linked_in_profile"
+    ],
     "progress": 100
   },
   {
@@ -617,7 +950,13 @@
     "title": "NextGen LMS (Synapse 2K25 Hackathon)",
     "category": "Hackathon",
     "organization": "Mohan Babu University (Synapse 2K25)",
-    "skills": ["Full-Stack Development", "LMS", "React", "UI/UX Design", "Database Management"],
+    "skills": [
+      "Full-Stack Development",
+      "LMS",
+      "React",
+      "UI/UX Design",
+      "Database Management"
+    ],
     "description": "Developed 'NextGen LMS', a full-stack Learning Management System portal, as a participant in the Synapse 2K25 off-campus hackathon. The platform provides features for course management, user enrollment, and content delivery.",
     "date": "2025-10",
     "pics": [],
@@ -634,7 +973,15 @@
     "title": "ExoX: Real-Time Environmental Monitoring Dashboard",
     "category": "Hackathon",
     "organization": "Smart India Hackathon (SIH)",
-    "skills": ["Supabase", "Real-time DB", "Google Authentication", "IoT", "Data Visualization", "AI Chatbot", "Google Gemini"],
+    "skills": [
+      "Supabase",
+      "Real-time DB",
+      "Google Authentication",
+      "IoT",
+      "Data Visualization",
+      "AI Chatbot",
+      "Google Gemini"
+    ],
     "description": "Developed 'ExoX', a modern, real-time dashboard to monitor environmental sensor data (like CO levels) from multiple IoT devices, for the Smart India Hackathon. The application was migrated from Firebase to Supabase and features real-time data streams, Google Authentication, an interactive device map, automated alerts, historical data charts, and an integrated AI chatbot (powered by Google Gemini) for natural language data queries.",
     "date": "2025-09",
     "pics": [],
@@ -670,7 +1017,13 @@
     "title": "DSA Streak App",
     "category": "Project",
     "organization": "Personal Project",
-    "skills": ["React", "Vercel", "UI/UX Design", "Gamification", "State Management"],
+    "skills": [
+      "React",
+      "Vercel",
+      "UI/UX Design",
+      "Gamification",
+      "State Management"
+    ],
     "description": "Developed a web application to help students track their Data Structures and Algorithms (DSA) problem-solving consistency. The app features a streak counter and a dashboard to visualize progress, motivating users to maintain a daily practice habit.",
     "date": "2025-09",
     "pics": [],
@@ -685,7 +1038,13 @@
     "title": "MovieFrd: Anonymous Movie Chat",
     "category": "Project",
     "organization": "Personal Project",
-    "skills": ["Full-Stack Development", "Supabase", "Real-time Chat", "Anonymous Authentication", "Next.js"],
+    "skills": [
+      "Full-Stack Development",
+      "Supabase",
+      "Real-time Chat",
+      "Anonymous Authentication",
+      "Next.js"
+    ],
     "description": "Developing a website for college students to anonymously chat about movies and TV shows. The application uses Supabase for the backend, including authentication and real-time chat features.",
     "date": "2025-10",
     "pics": [],
@@ -700,11 +1059,21 @@
     "title": "Multi-Modal Forensic Detection of AI-Generated Images",
     "category": "Research Project",
     "organization": "VIT-AP University (CSE4006 Project)",
-    "skills": ["PyTorch", "Computer Vision", "Deep Learning", "Forensics (FFT/DWT/ELA)", "EfficientNet"],
+    "skills": [
+      "PyTorch",
+      "Computer Vision",
+      "Deep Learning",
+      "Forensics (FFT/DWT/ELA)",
+      "EfficientNet"
+    ],
     "description": "Conducted extensive research on detecting AI-generated media. Initially developed a complex multi-modal architecture (HybridForensicsNetV2) fusing spatial and forensic features. Pivoted to a robust, data-centric EfficientNet-B0 model ('UltraSimpleModel') which achieved a state-of-the-art 99.5% F1-score, proving spatial artifacts alone are sufficient for detection in high-res generators.",
     "date": "2025-11",
     "pics": [],
-    "links": ["https://colab.research.google.com/drive/1WLLSv_o2RLz-Ufy_TaEHzfD6CQGTV6D0?usp=sharing", "https://colab.research.google.com/drive/1leD_uYb72X28Dmc6RKc8lUYUIMabpZJP?usp=sharing", "https://www.linkedin.com/posts/shanmukesh-bonala_deeplearning-computervision-ai-activity-7396066909512851458-EzKZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXeVFUBn9rTffqhOSjYb3ryVIZLkjbtQRU"],
+    "links": [
+      "https://colab.research.google.com/drive/1WLLSv_o2RLz-Ufy_TaEHzfD6CQGTV6D0?usp=sharing",
+      "https://colab.research.google.com/drive/1leD_uYb72X28Dmc6RKc8lUYUIMabpZJP?usp=sharing",
+      "https://www.linkedin.com/posts/shanmukesh-bonala_deeplearning-computervision-ai-activity-7396066909512851458-EzKZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXeVFUBn9rTffqhOSjYb3ryVIZLkjbtQRU"
+    ],
     "progress": 100
   },
   {
@@ -712,27 +1081,146 @@
     "title": "Peer Reviewer: Journal of Intelligent & Robotic Systems",
     "category": "Academic Service",
     "organization": "Springer Nature",
-    "skills": ["Peer Review", "Critical Analysis", "Robotics Research", "Academic Integrity"],
+    "skills": [
+      "Peer Review",
+      "Critical Analysis",
+      "Robotics Research",
+      "Academic Integrity"
+    ],
     "description": "Served as an official peer reviewer for the 'Journal of Intelligent & Robotic Systems' (Springer Nature). Evaluated submitted research manuscripts for technical accuracy, novelty, and contribution to the field of intelligent systems and robotics.",
-    "date": "2025-01",
+    "date": "2025-11",
     "pics": [],
-    "links": ["https://orcid.org/0009-0008-3651-4077"],
+    "links": [
+      "https://orcid.org/0009-0008-3651-4077"
+    ],
     "progress": 100
   },
   {
-    "id": 57,
-    "title": "AI-Integrated Smart Mobility and Urban Safety System",
-    "category": "Full-Stack Project",
-    "organization": "Personal Project",
-    "skills": ["Python", "React", "YOLOv8", "Supabase", "Google Maps API", "OpenCV", "SORT"],
-    "description": "Architected a Hybrid Edge-Cloud system for real-time traffic management. Implemented Computer Vision pipelines (YOLOv8 + SORT) to process CCTV feeds at 30 FPS, detecting vehicle counts and violations (Wrong-Way, Red Light) with 95% accuracy. Built a Real-time Pub/Sub architecture using Supabase to sync edge data with a React dashboard, achieving <200ms latency.",
+    "id": 67,
+    "title": "SmartMailSorter (India Post Hackathon)",
+    "category": "Hackathon Project",
+    "organization": "India Post",
+    "skills": [
+      "Python",
+      "OCR",
+      "Computer Vision",
+      "Automation",
+      "Machine Learning"
+    ],
+    "description": "Developed an AI-powered postal automation system for the India Post Hackathon. Utilized Computer Vision and OCR to automate mail sorting by pincode and address verification, aiming to significantly reduce manual labor and error rates in postal logistics.",
     "date": "2025-12",
     "pics": [],
     "links": [
+      "https://github.com/Shanmuk4622/SmartMailSorter"
+    ],
+    "progress": 100
+  },
+  {
+    "id": 58,
+    "title": "AI-Integrated Smart Mobility and Urban Safety System",
+    "category": "Full-Stack Project",
+    "organization": "Personal Project",
+    "skills": [
+      "Python",
+      "React",
+      "YOLOv8",
+      "Supabase",
+      "Google Maps API",
+      "OpenCV",
+      "SORT"
+    ],
+    "description": "Architected a Hybrid Edge-Cloud system for real-time traffic management. Implemented Computer Vision pipelines (YOLOv8 + SORT) to process CCTV feeds at 30 FPS, detecting vehicle counts and violations (Wrong-Way, Red Light) with 95% accuracy. Built a Real-time Pub/Sub architecture using Supabase to sync edge data with a React dashboard, achieving <200ms latency.",
+    "date": "2026-01",
+    "pics": [],
+    "links": [
       "https://github.com/Shanmuk4622/AI-Integrated-Smart-mobility-and-Urban-Safety-System",
-      "https://ai-integrated-smart-mobility-and-urban-safety-system-94jxxbr4f.vercel.app"
+      "https://ai-integrated-smart-mobility-and-urban-safety-system-94jxxbr4f.vercel.app",
+      "https://youtu.be/XGHO07l-3YY"
+    ],
+    "progress": 100
+  },
+  {
+    "id": 59,
+    "title": "IBM SkillBuild Full-Stack Internship (LMS3)",
+    "category": "Internship",
+    "organization": "IBM SkillBuild",
+    "skills": [
+      "React",
+      "Node.js",
+      "Full-Stack Development",
+      "LMS Architecture",
+      "Database Management"
+    ],
+    "description": "Completed a 2-month intensive internship focused on full-stack development. Architected and built 'LMS3', a comprehensive learning management portal for Mohan Babu University designed to streamline digital course delivery and student-faculty interaction.",
+    "date": "2026-01",
+    "pics": [],
+    "links": [
+      "https://github.com/Shanmuk4622/LMS3-",
+      "https://drive.google.com/file/d/1DT5LSCcobGSQxIkZFQIUq59fGg_mSBo5/view?usp=sharing"
+    ],
+    "progress": 100
+  },
+  {
+    "id": 60,
+    "title": "ICPR 2026 Competition: 91st International Rank",
+    "category": "Achievement",
+    "organization": "International Conference on Pattern Recognition",
+    "skills": [
+      "Pattern Recognition",
+      "Machine Learning",
+      "Model Benchmarking",
+      "Competitive AI"
+    ],
+    "description": "Participated in the prestigious ICPR 2026 international competition. Benchmarked advanced AI models against global teams and achieved a 91st position ranking worldwide in pattern recognition tasks.",
+    "date": "2026-02",
+    "pics": [],
+    "links": [
+      "https://www.codabench.org/competitions/12259/#/results-tab"
+    ],
+    "progress": 100
+  },
+  {
+    "id": 61,
+    "title": "LDW-CNet Paper Presentation (ICDTSES 2026)",
+    "category": "Research",
+    "organization": "National Institute of Technology Puducherry",
+    "skills": [
+      "Deep Learning",
+      "CNN",
+      "DWT (Discrete Wavelet Transform)",
+      "Image Processing",
+      "Academic Writing"
+    ],
+    "description": "Presented the research paper 'LDW-CNet: A Learnable DWT based CNN for Medical Image Classification' at NIT Puducherry. Demonstrated a model that integrates wavelets for enhanced feature extraction from MRI scans, improving brain tumor detection accuracy and efficiency.",
+    "date": "2026-02",
+    "pics": [],
+    "links": [
+      "https://drive.google.com/file/d/1z4JSfAC5iRBx_HWwiU2OpkWbxPKHooMw/view?usp=sharing"
+    ],
+    "progress": 100
+  },
+  {
+    "id": 62,
+    "title": "Intelligent Semantic Search & Information Retrieval System",
+    "category": "AI/ML Project",
+    "organization": "Technical Assessment Task",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "PyTorch (CUDA)",
+      "ChromaDB",
+      "Fuzzy C-Means Clustering",
+      "Sentence-Transformers",
+      "Docker",
+      "TailwindCSS"
+    ],
+    "description": "Engineered a production-ready Semantic Search Engine using the 20 Newsgroups dataset (~20k articles). Implemented a 'bucketed' search architecture using Two-Phase Fuzzy C-Means clustering (13 clusters) to map underlying topics and reduce retrieval latency. Built a custom Cluster-Aware Semantic Cache from scratch that achieves O(n/k) lookup times by scanning target clusters. Features an end-to-end data pipeline with GPU fast-path execution (~2 mins) and a minimalist glassmorphism web UI.",
+    "date": "2026-03",
+    "pics": [],
+    "links": [
+      "https://github.com/Shanmuk4622/Trademarkia---AI-ML-Engineer-Task",
+      "https://youtu.be/fFj4ugAQudc"
     ],
     "progress": 100
   }
 ]
-
