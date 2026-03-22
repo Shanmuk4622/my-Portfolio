@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
+import { motion } from 'framer-motion';
 import './HomePage.css';
 
 import profileImage from '../assets/profile.png';
@@ -9,18 +10,20 @@ import resumePDF from '../assets/resume.pdf';
 const HomePage = () => {
   return (
     <section className="hero-section">
-      <div className="hero-content">
+      <div className="hero-background-glow"></div>
+      <motion.div 
+        className="hero-content glass-card"
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6 }}
+      >
         <h1 className="hero-name">Bonala Shanmukesh</h1>
         <TypeAnimation
           sequence={[
-            'Deep Learning Enthusiast',
-            2000,
-            'AI & ML Researcher',
-            2000,
-            'Computer Vision Developer',
-            2000,
-            'Hackathon Finalist',
-            2000,
+            'Deep Learning Enthusiast', 2000,
+            'AI & ML Researcher', 2000,
+            'Computer Vision Developer', 2000,
+            'Hackathon Finalist', 2000,
           ]}
           wrapper="h2"
           speed={50}
@@ -36,10 +39,17 @@ const HomePage = () => {
             Download Resume
           </a>
         </div>
-      </div>
-      <div className="hero-image-container">
-        <img src={profileImage} alt="Bonala Shanmukesh" className="hero-image" />
-      </div>
+      </motion.div>
+      <motion.div 
+        className="hero-image-container"
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.6, delay: 0.2 }}
+      >
+        <div className="hero-image-wrapper">
+          <img src={profileImage} alt="Bonala Shanmukesh" className="hero-image" />
+        </div>
+      </motion.div>
     </section>
   );
 };

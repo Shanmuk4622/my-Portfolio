@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaExternalLinkAlt, FaCertificate, FaCalendar, FaBuilding } from 'react-icons/fa';
+import { FaExternalLinkAlt, FaCalendar, FaBuilding } from 'react-icons/fa';
 import certificationsData from '../data/certifications.json';
 import './CertificationsPage.css';
 
@@ -13,11 +13,32 @@ const CertificationsPage = () => {
       <div className="certifications-grid">
         {certificationsData.map(cert => (
           <div key={cert.id} className="cert-card">
-            <div className="cert-icon">
-              <FaCertificate />
+            <div className="cert-image-container">
+              <img src={cert.image} alt={cert.name} className="cert-image" />
+              <div className="cert-overlay">
+                {(cert.url && !cert.url.startsWith('file://')) ? (
+                  <a 
+                    href={cert.url} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="cert-view-btn"
+                  >
+                    <FaExternalLinkAlt /> View
+                  </a>
+                ) : (cert.url && cert.url.startsWith('file://')) ? (
+                  <a 
+                    href={`/${cert.url.replace('file://', '')}`} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="cert-view-btn"
+                  >
+                    <FaExternalLinkAlt /> View
+                  </a>
+                ) : null}
+              </div>
             </div>
             <div className="cert-content">
-              <h3 className="cert-name">{cert.name}</h3>
+              <h3 className="cert-name" title={cert.name}>{cert.name}</h3>
               <div className="cert-meta">
                 <span className="cert-issuer">
                   <FaBuilding />
@@ -28,17 +49,6 @@ const CertificationsPage = () => {
                   {cert.date}
                 </span>
               </div>
-              {cert.url && !cert.url.startsWith('file://') && (
-                <a 
-                  href={cert.url} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="cert-link"
-                >
-                  <FaExternalLinkAlt />
-                  View Certificate
-                </a>
-              )}
             </div>
           </div>
         ))}
