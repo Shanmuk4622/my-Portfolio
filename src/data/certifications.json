@@ -6,7 +6,7 @@
     "date": "2025-07",
     "description": "",
     "url": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_KpzcgKMdrAYSeuxCt_1753417154738_completion_certificate.pdf",
-    "imageUrl": "/cert_placeholder.png"
+    "imageUrl": "/c_deloitte.png"
   },
   {
     "id": 2,
@@ -14,8 +14,8 @@
     "issuer": "CertX",
     "date": "2025",
     "description": "",
-    "url": "https://certx.in/certificate/27431ebc-ac17-43c8-9713-f5b20ad95b99402028",
-    "imageUrl": "/cert_placeholder.png"
+    "url": "https://credsverse.com/credentials/ef7b5a14-d0af-4ad3-a1fe-e90b54f9067e",
+    "imageUrl": "/c_greatIndian.png"
   },
   {
     "id": 3,
@@ -23,8 +23,8 @@
     "issuer": "CredsVerse",
     "date": "2025",
     "description": "",
-    "url": "https://credsverse.com/credentials/ef7b5a14-d0af-4ad3-a1fe-e90b54f9067e",
-    "imageUrl": "/cert_placeholder.png"
+    "url": "https://certx.in/certificate/27431ebc-ac17-43c8-9713-f5b20ad95b99402028",
+    "imageUrl": "/c_ai.png"
   },
   {
     "id": 4,
@@ -87,6 +87,6 @@
     "date": "Unknown",
     "description": "",
     "url": "file://DevOps.jpg",
-    "imageUrl": "/DevOps.jpg"
+    "imageUrl": "/c_DevOps.jpg"
   }
 ]
