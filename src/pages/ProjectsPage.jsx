@@ -34,7 +34,7 @@ const ProjectsPage = () => {
         initial="hidden"
         animate="visible"
       >
-        {projectsData.map((project) => (
+        {[...projectsData].reverse().map((project) => (
           // Wrap ProjectCard in a motion.div to apply item animation
           <motion.div key={project.id} variants={itemVariants}>
             <ProjectCard project={project} />
