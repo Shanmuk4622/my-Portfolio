@@ -19,11 +19,64 @@
   text-align: center;
   font-size: 1.15rem;
   color: var(--text-secondary-color);
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
   max-width: 650px;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.6;
+}
+
+.cert-search-container {
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto 4rem auto;
+  position: relative;
+}
+
+.cert-search-icon {
+  position: absolute;
+  left: 1.5rem;
+  color: var(--text-secondary-color);
+  font-size: 1.15rem;
+}
+
+.cert-search-input {
+  width: 100%;
+  padding: 1.1rem 1.5rem 1.1rem 3.5rem;
+  border-radius: 30px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-secondary-color);
+  color: var(--text-primary-color);
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.cert-search-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 4px 20px rgba(0, 123, 255, 0.15);
+}
+
+body.dark .cert-search-input {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.dark .cert-search-input:focus {
+  border-color: var(--primary-color);
+}
+
+.cert-no-results {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--text-secondary-color);
+  margin-top: 3rem;
+  padding: 3rem;
+  background: rgba(var(--bg-color-rgb, 255, 255, 255), 0.02);
+  border-radius: 16px;
+  border: 1px dashed var(--border-color);
 }
 
 .certifications-grid {
