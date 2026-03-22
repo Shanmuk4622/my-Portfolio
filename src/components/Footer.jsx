@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaHeart } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
 import './Footer.css';
 
 const Footer = () => {
@@ -23,7 +23,7 @@ const Footer = () => {
           </a>
         </div>
         <p className="footer-text">
-          Made with <FaHeart className="heart-icon" /> by Bonala Shanmukesh
+          Made by Bonala Shanmukesh
         </p>
         <p className="footer-copyright">
           &copy; {currentYear} All Rights Reserved
