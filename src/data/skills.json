@@ -1,7 +1,7 @@
 [
   {
     "category": "Programming Languages",
-    "skills": ["Python", "JavaScript", "C++", "Java", "Dart"]
+    "skills": ["Python", "JavaScript", "C++", "Java"]
   },
   {
     "category": "Frameworks & Libraries",
@@ -9,6 +9,6 @@
   },
   {
     "category": "Tools & Platforms",
-    "skills": ["Git & GitHub", "Docker", "VS Code", "Jupyter", "Google Cloud", "Firebase"]
+    "skills": ["Git & GitHub", "Docker", "VS Code", "Jupyter", "Google Cloud", "Firebase", "Supabase"]
   }
 ]
