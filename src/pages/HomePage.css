@@ -24,6 +24,29 @@
   pointer-events: none;
 }
 
+.hero-particles {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.hero-particle {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--primary-color);
+  opacity: 0.15;
+  animation: floatParticle linear infinite;
+}
+
+@keyframes floatParticle {
+  0% { transform: translateY(0) translateX(0) scale(1); opacity: 0; }
+  10% { opacity: 0.2; }
+  90% { opacity: 0.2; }
+  100% { transform: translateY(-100vh) translateX(40px) scale(0.5); opacity: 0; }
+}
+
 @keyframes pulseGlow {
   0% { transform: translate(-50%, -50%) scale(1); opacity: 0.7; }
   100% { transform: translate(-50%, -50%) scale(1.1); opacity: 1; }
@@ -47,6 +70,15 @@ body.dark .glass-card {
   flex: 1;
   max-width: 650px;
   z-index: 1;
+}
+
+.hero-greeting {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .hero-name {
@@ -80,6 +112,34 @@ body.dark .glass-card {
   display: flex;
   gap: 1.25rem;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.hero-stats-row {
+  display: flex;
+  gap: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.hero-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.hero-stat-num {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  line-height: 1;
+}
+
+.hero-stat-label {
+  font-size: 0.85rem;
+  color: var(--text-secondary-color);
+  font-weight: 500;
 }
 
 .btn {
@@ -144,6 +204,19 @@ body.dark .glass-card {
   box-shadow: 0 20px 50px rgba(0, 123, 255, 0.25);
 }
 
+.hero-image-ring {
+  position: absolute;
+  inset: -12px;
+  border-radius: 50%;
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  animation: spinRing 20s linear infinite;
+}
+
+@keyframes spinRing {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
 @keyframes floatImage {
   0% { transform: translateY(0px); }
   50% { transform: translateY(-15px); }
@@ -165,7 +238,7 @@ body.dark .glass-card {
     padding: 2rem 1rem;
     gap: 3rem;
   }
-  
+
   .glass-card {
     padding: 2rem;
   }
@@ -180,6 +253,10 @@ body.dark .glass-card {
   }
 
   .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-stats-row {
     justify-content: center;
   }
 

@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "title": "A Comparative Analysis of YOLO Architectures for Real-Time Anomaly Detection in Surveillance Video Streams",
+    "type": "Research Paper",
+    "venue": "YOLO-AD Framework",
+    "date": "2025-04",
+    "description": "Comprehensive comparative study of YOLOv5, YOLOv8, and YOLOv10 for anomaly detection in surveillance footage. Evaluated detection accuracy, inference speed, and resource efficiency across multiple anomaly categories including fire, theft, and unusual crowd behavior.",
+    "tags": ["Computer Vision", "YOLO", "Anomaly Detection", "Deep Learning"],
+    "links": ["https://github.com/Shanmuk4622/YOLO-AD-Framework"],
+    "status": "Completed"
+  },
+  {
+    "id": 2,
+    "title": "VA-JPEG: Semantic Image Compression Using Vision-Aware Transformers",
+    "type": "Research Project",
+    "venue": "VIT-AP University",
+    "date": "2025-08",
+    "description": "Designed a novel semantic image compression framework leveraging Vision Transformers (ViTs) to preserve critical visual features during compression. Achieved superior perceptual quality at lower bitrates compared to traditional JPEG and learned compression methods.",
+    "tags": ["Image Compression", "Vision Transformers", "Deep Learning", "Computer Vision"],
+    "links": [],
+    "status": "In Progress"
+  },
+  {
+    "id": 3,
+    "title": "VisionDrive: Autonomous Vehicle Perception Using Multi-Sensor Fusion",
+    "type": "Research Project",
+    "venue": "VIT-AP University",
+    "date": "2025-06",
+    "description": "Developed a perception pipeline for autonomous driving that fuses camera and LiDAR data using a transformer-based architecture. Implemented real-time object detection, lane detection, and depth estimation modules optimized for edge deployment.",
+    "tags": ["Autonomous Driving", "Sensor Fusion", "PyTorch", "Computer Vision"],
+    "links": [],
+    "status": "In Progress"
+  },
+  {
+    "id": 4,
+    "title": "Multi-Modal Forensic Detection of AI-Generated Images",
+    "type": "Research Project",
+    "venue": "VIT-AP University",
+    "date": "2025-11",
+    "description": "Pivoted from complex multi-modal architectures to a robust, data-centric EfficientNet-B0 model achieving a state-of-the-art 99.5% F1-score for detecting AI-generated media. Employed forensic analysis techniques (FFT, DWT, ELA) for feature extraction.",
+    "tags": ["PyTorch", "Deep Learning", "Forensics", "EfficientNet", "Image Analysis"],
+    "links": ["https://colab.research.google.com/drive/1WLLSv_o2RLz-Ufy_TaEHzfD6CQGTV6D0?usp=sharing", "https://www.linkedin.com/posts/shanmukesh-bonala_deeplearning-computervision-ai-activity-7396066909512851458-EzKZ"],
+    "status": "Completed"
+  },
+  {
+    "id": 5,
+    "title": "LDW-CNet: Lightweight Deep Wavelet CNN for Brain Tumor Detection",
+    "type": "Research Project",
+    "venue": "VIT-AP University",
+    "date": "2025-10",
+    "description": "Developed a lightweight CNN architecture that uses Discrete Wavelet Transform (DWT) for enhanced feature extraction from MRI scans. The model achieves competitive accuracy while being computationally efficient for practical deployment.",
+    "tags": ["CNN", "DWT", "MRI Analysis", "Medical Imaging", "TensorFlow"],
+    "links": [],
+    "status": "Completed"
+  },
+  {
+    "id": 6,
+    "title": "Peer Reviewer — Journal of Intelligent & Robotic Systems",
+    "type": "Academic Service",
+    "venue": "Springer Nature",
+    "date": "2025-11",
+    "description": "Appointed as a technical reviewer for a Scopus-indexed Springer Nature journal. Reviewing research manuscripts in robotics and intelligent systems, providing critical analysis and technical feedback on AI and robotics research.",
+    "tags": ["Peer Review", "Robotics", "AI", "Academic Service"],
+    "links": ["https://orcid.org/0009-0008-3651-4077"],
+    "status": "Active"
+  },
+  {
+    "id": 7,
+    "title": "AI-Integrated Smart Mobility and Urban Safety System",
+    "type": "Research Project",
+    "venue": "VIT-AP University",
+    "date": "2025-12",
+    "description": "Architected a hybrid edge-cloud system for real-time traffic management using YOLOv8 and SORT for 30 FPS vehicle detection and violation monitoring. Integrated with a React/Supabase dashboard achieving sub-200ms latency.",
+    "tags": ["YOLOv8", "SORT", "Traffic Management", "Edge Computing", "React"],
+    "links": ["https://github.com/Shanmuk4622/AI-Integrated-Smart-mobility-and-Urban-Safety-System", "https://youtu.be/XGHO07l-3YY"],
+    "status": "Completed"
+  }
+]

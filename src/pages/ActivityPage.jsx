@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
-import experienceData from '../data/activity.json';
+import activityData from '../data/activity.json';
 import skillsData from '../data/skills.json';
 import './ActivityPage.css';
 import ActivityTimeline from '../components/ActivityTimeline';
 import SkillsGrid from '../components/SkillsGrid';
+import ScrollReveal from '../components/ScrollReveal';
 
 const ActivityPage = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
-  const filteredActivity = experienceData.filter(activity => 
-    activity.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
+  const filteredActivity = activityData.filter(activity =>
+    activity.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
     activity.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
     activity.organization.toLowerCase().includes(searchQuery.toLowerCase()) ||
     activity.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -19,25 +20,27 @@ const ActivityPage = () => {
 
   return (
     <div className="activity-container">
-      <h1 className="activity-title">Activities & Achievements</h1>
-      
-      {/* Activity Timeline */}
-      <div className="timeline-section">
-        <h2 className="section-title">
-          All Activities
-          <span className="activity-count">({filteredActivity.length})</span>
-        </h2>
+      <ScrollReveal>
+        <h1 className="activity-title">Activities & Achievements</h1>
+      </ScrollReveal>
 
-        <div className="activity-search-container">
-          <FaSearch className="activity-search-icon" />
-          <input 
-            type="text" 
-            className="activity-search-input" 
-            placeholder="Search activities, organizations, or skills..." 
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
-        </div>
+      <div className="timeline-section">
+        <ScrollReveal>
+          <h2 className="section-title">
+            All Activities
+            <span className="activity-count">({filteredActivity.length})</span>
+          </h2>
+          <div className="activity-search-container">
+            <FaSearch className="activity-search-icon" />
+            <input
+              type="text"
+              className="activity-search-input"
+              placeholder="Search activities, organizations, or skills..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+          </div>
+        </ScrollReveal>
 
         {filteredActivity.length === 0 ? (
           <div className="activity-no-results">
@@ -48,9 +51,10 @@ const ActivityPage = () => {
         )}
       </div>
 
-      {/* Skills Section */}
       <div className="skills-section">
-        <h2 className="skills-title">Technologies & Tools</h2>
+        <ScrollReveal>
+          <h2 className="skills-title">Technologies & Tools</h2>
+        </ScrollReveal>
         <SkillsGrid skillsData={skillsData} />
       </div>
     </div>

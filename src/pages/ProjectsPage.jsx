@@ -1,45 +1,64 @@
-import React from 'react';
-// eslint-disable-next-line no-unused-vars
-import { motion } from 'framer-motion'; // Import motion
+import React, { useState, useMemo } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import ProjectCard from '../components/ProjectCard';
+import ScrollReveal from '../components/ScrollReveal';
 import projectsData from '../data/projects.json';
+import { FaFilter } from 'react-icons/fa';
 import './ProjectsPage.css';
 
 const ProjectsPage = () => {
-  // Define animation variants
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.2, // This will make cards appear one after another
-      },
-    },
-  };
+  const [activeTag, setActiveTag] = useState('All');
 
-  const itemVariants = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1,
-    },
-  };
+  const allTags = useMemo(() => {
+    const tags = new Set();
+    projectsData.forEach((p) => p.tags.forEach((t) => tags.add(t)));
+    return ['All', ...Array.from(tags).sort()];
+  }, []);
+
+  const filteredProjects = useMemo(() => {
+    if (activeTag === 'All') return [...projectsData].reverse();
+    return [...projectsData].filter((p) => p.tags.includes(activeTag)).reverse();
+  }, [activeTag]);
 
   return (
     <div className="projects-container">
-      <h1 className="projects-title">My Projects</h1>
-      <motion.div
-        className="projects-grid"
-        variants={containerVariants}
-        initial="hidden"
-        animate="visible"
-      >
-        {[...projectsData].reverse().map((project) => (
-          // Wrap ProjectCard in a motion.div to apply item animation
-          <motion.div key={project.id} variants={itemVariants}>
-            <ProjectCard project={project} />
-          </motion.div>
-        ))}
+      <ScrollReveal>
+        <h1 className="projects-title">My Projects</h1>
+        <p className="projects-subtitle">
+          A collection of AI/ML, computer vision, and full-stack projects I've built.
+        </p>
+      </ScrollReveal>
+
+      <div className="projects-filter">
+        <FaFilter className="filter-icon" />
+        <div className="filter-tags">
+          {allTags.map((tag) => (
+            <button
+              key={tag}
+              className={`filter-tag ${activeTag === tag ? 'active' : ''}`}
+              onClick={() => setActiveTag(tag)}
+            >
+              {tag}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <motion.div className="projects-grid" layout>
+        <AnimatePresence mode="popLayout">
+          {filteredProjects.map((project) => (
+            <motion.div
+              key={project.id}
+              layout
+              initial={{ opacity: 0, scale: 0.9, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.9, y: -20 }}
+              transition={{ duration: 0.35, ease: 'easeOut' }}
+            >
+              <ProjectCard project={project} />
+            </motion.div>
+          ))}
+        </AnimatePresence>
       </motion.div>
     </div>
   );

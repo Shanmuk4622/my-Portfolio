@@ -17,6 +17,7 @@ const ExperiencePage = lazy(() => import('./pages/ExperiencePage'));
 const ActivityPage = lazy(() => import('./pages/ActivityPage'));
 const ContactPage = lazy(() => import('./pages/ContactPage'));
 const CertificationsPage = lazy(() => import('./pages/CertificationsPage'));
+const ResearchPage = lazy(() => import('./pages/ResearchPage'));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 
 import './App.css';
@@ -75,6 +76,7 @@ function App() {
               <Route path="/activity" element={<AnimatedPage><ActivityPage /></AnimatedPage>} />
               <Route path="/contact" element={<AnimatedPage><ContactPage /></AnimatedPage>} />
               <Route path="/certifications" element={<AnimatedPage><CertificationsPage /></AnimatedPage>} />
+              <Route path="/research" element={<AnimatedPage><ResearchPage /></AnimatedPage>} />
               <Route path="*" element={<AnimatedPage><NotFoundPage /></AnimatedPage>} />
             </Routes>
           </AnimatePresence>

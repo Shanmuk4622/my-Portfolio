@@ -1,4 +1,4 @@
-# 🚀 Bonala Shanmukesh - AI/ML Portfolio
+# Bonala Shanmukesh — AI/ML Portfolio
 
 > **Deep Learning Enthusiast | Computer Vision Developer | AI Researcher**
 
@@ -7,28 +7,31 @@
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-12.x-FF0055?logo=framer)](https://www.framer.com/motion/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-🔗 **Live Demo**: [shanmukeshbonala.vercel.app](https://shanmukeshbonala.vercel.app/)
+**Live Demo**: [shanmukeshbonala.vercel.app](https://shanmukeshbonala.vercel.app/)
 
 ---
 
-## ✨ Features
+## Features
 
-- 🌓 **Dark/Light Mode** - Seamless theme switching with system preference detection
-- 📱 **Fully Responsive** - Optimized for all devices (mobile, tablet, desktop)
-- ⚡ **Fast Performance** - Built with Vite for lightning-fast load times
-- 🎨 **Modern UI/UX** - Clean design with smooth animations using Framer Motion
-- 📧 **Contact Form** - Functional email integration with EmailJS
-- 🔄 **Smooth Navigation** - Page transitions with scroll-to-top functionality
-- ♿ **Accessible** - ARIA labels, focus states, and semantic HTML
-- 🎭 **Type Animation** - Dynamic role display on homepage
+- **Dark/Light Mode** — Seamless theme switching with localStorage persistence
+- **Fully Responsive** — Optimized for mobile, tablet, and desktop
+- **Page Transitions** — Smooth AnimatePresence transitions with Framer Motion
+- **Scroll-Reveal Animations** — Sections animate into view as you scroll
+- **3D Tilt Cards** — Interactive perspective hover effects on project cards
+- **Animated Counters** — Number animations on About page stats
+- **Project Filtering** — Filter projects by technology tags
+- **Research Section** — Academic research, publications, and peer review
+- **Particle Hero Background** — Animated floating particles on homepage
+- **Navbar Scroll Effect** — Navbar shrinks and gets shadow on scroll
+- **Skeleton Loaders** — Content placeholders during page loading
+- **Contact Form** — Functional email integration via EmailJS
+- **Accessible** — ARIA labels, focus states, semantic HTML, skip-to-content link
+- **SEO Optimized** — Open Graph meta tags, JSON-LD structured data, canonical URLs
+- **Type Animation** — Dynamic role display on homepage
 
-## 📸 Screenshots
+---
 
-| Light Mode | Dark Mode |
-|------------|-----------|
-| ![Light Mode](public/screen-light.png) | ![Dark Mode](public/screen-dark.png) |
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Technologies |
 |----------|-------------|
@@ -40,47 +43,57 @@
 | **Animations** | Framer Motion, React Type Animation |
 | **Deployment** | Vercel |
 
-## 📁 Project Structure
+---
+
+## Project Structure
 
 ```
 my-portfolio/
-├── public/                 # Static assets (images, JSON data)
+├── public/                     # Static assets (images, GIFs, PDFs)
 ├── src/
-│   ├── assets/            # Images, resume PDF
-│   ├── components/        # Reusable React components
-│   │   ├── Navbar.jsx     # Navigation with mobile menu
-│   │   ├── Footer.jsx     # Footer with social links
-│   │   ├── ProjectCard.jsx # Project display cards
-│   │   ├── SkillsGrid.jsx  # Skills display grid
-│   │   ├── ActivityTimeline.jsx
-│   │   ├── ExperienceTimeline.jsx
-│   │   ├── ScrollToTop.jsx # Auto scroll on navigation
-│   │   └── BackToTop.jsx   # Floating back-to-top button
-│   ├── context/           # React Context (Theme)
-│   ├── data/              # JSON data files
-│   │   ├── projects.json
-│   │   ├── skills.json
-│   │   ├── activity.json
-│   │   ├── experience.json
-│   │   └── certifications.json
-│   ├── pages/             # Page components
-│   │   ├── HomePage.jsx
-│   │   ├── AboutPage.jsx
-│   │   ├── ProjectsPage.jsx
-│   │   ├── ExperiencePage.jsx
-│   │   ├── ActivityPage.jsx
-│   │   ├── CertificationsPage.jsx
-│   │   ├── ContactPage.jsx
-│   │   └── NotFoundPage.jsx  # 404 page
-│   ├── App.jsx            # Main app component
-│   ├── main.jsx           # Entry point
-│   └── index.css          # Global styles & CSS variables
-├── scripts/               # Utility scripts
-├── templates/             # Update templates
+│   ├── assets/                 # Images, resume PDF
+│   ├── components/             # Reusable React components
+│   │   ├── Navbar.jsx          # Navigation with mobile menu + scroll shrink
+│   │   ├── Footer.jsx          # Footer with social links
+│   │   ├── ProjectCard.jsx     # Project display cards with 3D tilt
+│   │   ├── SkillsGrid.jsx      # Skills display grid
+│   │   ├── ActivityTimeline.jsx # Interactive activity timeline
+│   │   ├── ExperienceTimeline.jsx # Professional experience timeline
+│   │   ├── ScrollReveal.jsx    # Intersection observer scroll animations
+│   │   ├── TiltCard.jsx        # 3D perspective tilt wrapper
+│   │   ├── ScrollToTop.jsx     # Auto scroll-to-top on route change
+│   │   ├── BackToTop.jsx       # Floating back-to-top button
+│   │   └── LoadingSpinner.jsx  # Spinner + skeleton loaders
+│   ├── context/                # React Context (Theme)
+│   ├── data/                   # JSON data files
+│   │   ├── projects.json       # Project portfolio entries
+│   │   ├── skills.json         # Skills by category
+│   │   ├── activity.json       # Activities, achievements, hackathons
+│   │   ├── experience.json     # Professional experience
+│   │   ├── certifications.json # Certification list
+│   │   └── research.json       # Research papers and publications
+│   ├── pages/                  # Page components
+│   │   ├── HomePage.jsx        # Hero with particles, type animation, stats
+│   │   ├── AboutPage.jsx       # Bio, animated stats, skills
+│   │   ├── ProjectsPage.jsx    # Project grid with tag filtering
+│   │   ├── ExperiencePage.jsx  # Professional experience timeline
+│   │   ├── ActivityPage.jsx    # Activities with search filter
+│   │   ├── ResearchPage.jsx    # Research & publications
+│   │   ├── CertificationsPage.jsx # Certification cards
+│   │   ├── ContactPage.jsx     # Contact form + social links
+│   │   └── NotFoundPage.jsx    # 404 page
+│   ├── App.jsx                 # Routes, page transitions, layout
+│   ├── main.jsx                # Entry point with providers
+│   └── index.css               # Global styles & CSS variables
+├── scripts/                    # Utility scripts
+├── templates/                  # Update templates
+├── AGENTS.md                   # AI agent configuration
 └── package.json
 ```
 
-## 🚀 Getting Started
+---
+
+## Getting Started
 
 ### Prerequisites
 
@@ -90,16 +103,9 @@ my-portfolio/
 ### Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/Shanmuk4622/my-portfolio.git
-
-# Navigate to the project directory
 cd my-portfolio
-
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
 ```
 
@@ -114,7 +120,22 @@ The app will be available at `http://localhost:5173`
 | `npm run preview` | Preview production build locally |
 | `npm run lint` | Run ESLint for code quality |
 
-## 🎨 Customization
+---
+
+## Environment Variables
+
+Copy `.env.example` to `.env` and fill in your credentials:
+
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+VITE_SITE_URL=https://yourportfolio.com
+```
+
+---
+
+## Customization
 
 ### Theme Colors
 
@@ -125,54 +146,29 @@ Edit CSS variables in `src/index.css`:
   --primary-color: #007bff;
   --bg-color: #ffffff;
   --text-primary-color: #1a1a2e;
-  /* ... more variables */
 }
 
 body.dark {
   --primary-color: #4fd1c5;
   --bg-color: #0f0f1a;
   --text-primary-color: #f5f6fa;
-  /* ... more variables */
 }
 ```
 
 ### Content Updates
 
-Update your portfolio content by editing JSON files in `src/data/`:
+Update portfolio content by editing JSON files in `src/data/`:
 
-- **projects.json** - Your projects with links, tags, and dates
-- **skills.json** - Skills organized by category
-- **activity.json** - Activities, achievements, and hackathons
-- **certifications.json** - Professional certifications
+- `projects.json` — Projects with links, tags, images, and dates
+- `skills.json` — Skills organized by category
+- `activity.json` — Activities, achievements, hackathons
+- `experience.json` — Professional experience entries
+- `certifications.json` — Certification cards
+- `research.json` — Research papers, publications, academic service
 
-### Email Setup (Contact Form)
+---
 
-1. Create an account at [EmailJS](https://www.emailjs.com/)
-2. Update credentials in `src/pages/ContactPage.jsx`:
-
-```javascript
-const serviceID = 'your_service_id';
-const templateID = 'your_template_id';
-const publicKey = 'your_public_key';
-```
-
-## 👨‍💻 About Me
-
-I'm a passionate **B.Tech AI-ML undergraduate** at **VIT-AP University** with a strong focus on:
-
-- 🧠 **Deep Learning** & Neural Networks
-- 👁️ **Computer Vision** (YOLO, OpenCV, TensorFlow, PyTorch)
-- 🔬 **AI Research** (Anomaly Detection, Semantic Compression)
-- 💻 **Full-Stack Development** (React, Node.js, Flutter)
-
-### 🏆 Highlights
-
-- 🥇 Smart India Hackathon Finalist
-- 📰 Research paper under review at Springer LNNS
-- 🎓 IEEE Student Member & Vice-Chair
-- 🚀 9+ AI/ML projects with live demos
-
-## 📞 Connect With Me
+## Connect With Me
 
 <p align="center">
   <a href="https://www.linkedin.com/in/shanmukesh-bonala/">
@@ -189,26 +185,14 @@ I'm a passionate **B.Tech AI-ML undergraduate** at **VIT-AP University** with a 
   </a>
 </p>
 
-## 🤝 Open to Opportunities
+## Open to Opportunities
 
-I'm actively seeking:
+- AI/ML Research Internships
+- Computer Vision Engineering Roles
+- Full-Stack Development Positions
+- Research Collaborations
+- Open Source Contributions
 
-- 🔬 AI/ML Research Internships
-- 👁️ Computer Vision Engineering Roles
-- 💻 Full-Stack Development Positions
-- 🤝 Research Collaborations
-- 🌐 Open Source Contributions
+## License
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-<p align="center">
-  <b>⭐ Star this repository if you found it helpful! ⭐</b>
-</p>
-
-<p align="center">
-  Built with using React, Vite, and modern web technologies
-</p>
+This project is open source under the [MIT License](LICENSE).

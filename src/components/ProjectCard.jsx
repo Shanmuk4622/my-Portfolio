@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './ProjectCard.css';
 import { FaGithub, FaCalendarAlt } from 'react-icons/fa';
 import { CgWebsite } from 'react-icons/cg';
+import TiltCard from './TiltCard';
 
 const ProjectCard = ({ project }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -20,8 +21,9 @@ const ProjectCard = ({ project }) => {
   };
 
   return (
-    <div className="project-card">
-      <div className="project-image-container">
+    <TiltCard>
+      <div className="project-card">
+        <div className="project-image-container">
         {!imageLoaded && !imageError && (
           <div className="project-image-placeholder">
             <div className="loading-spinner"></div>
@@ -68,7 +70,8 @@ const ProjectCard = ({ project }) => {
           )}
         </div>
       </div>
-    </div>
+      </div>
+    </TiltCard>
   );
 };
 
