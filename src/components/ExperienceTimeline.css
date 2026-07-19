@@ -56,7 +56,7 @@
 
 .experience-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 35px rgba(var(--primary-color-rgb), 0.15), 0 5px 15px rgba(0, 0, 0, 0.05);
   border-color: var(--primary-color);
 }
 
@@ -64,6 +64,10 @@ body.dark .experience-card {
   background: rgba(255, 255, 255, 0.03);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   border-color: rgba(255, 255, 255, 0.05);
+}
+
+body.dark .experience-card:hover {
+  box-shadow: 0 15px 35px rgba(var(--primary-color-rgb), 0.25), 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .experience-header {

@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   --text-primary-color: #1a1a2e;
   --text-secondary-color: #4a4a68;
   --primary-color: #007bff;
+  --primary-color-rgb: 0, 123, 255;
   --primary-color-hover: #0056b3;
   --border-color: #e0e0e0;
   --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
@@ -48,6 +49,7 @@ body.dark {
   --text-primary-color: #f5f6fa;
   --text-secondary-color: #a0a0b8;
   --primary-color: #4fd1c5;
+  --primary-color-rgb: 79, 209, 197;
   --primary-color-hover: #38b2ac;
   --border-color: #2d2d44;
   --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);

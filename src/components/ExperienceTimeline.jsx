@@ -6,6 +6,7 @@ import {
   FaMapMarkerAlt,
   FaBriefcase
 } from 'react-icons/fa';
+import ScrollReveal from './ScrollReveal';
 import './ExperienceTimeline.css';
 
 const ExperienceTimeline = ({ experienceData }) => {
@@ -20,7 +21,12 @@ const ExperienceTimeline = ({ experienceData }) => {
   return (
     <div className="experience-timeline">
       {experienceData.map((exp, idx) => (
-        <div className="experience-item" key={exp.id || idx}>
+        <ScrollReveal 
+          direction="up" 
+          delay={idx * 0.15} 
+          className="experience-item" 
+          key={exp.id || idx}
+        >
           <div className="experience-content">
             <div className="experience-card">
               {/* Header with Title and Company */}
@@ -94,7 +100,7 @@ const ExperienceTimeline = ({ experienceData }) => {
               )}
             </div>
           </div>
-        </div>
+        </ScrollReveal>
       ))}
     </div>
   );

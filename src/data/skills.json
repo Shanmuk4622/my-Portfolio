@@ -1,14 +1,18 @@
 [
   {
-    "category": "Programming Languages",
-    "skills": ["Python", "JavaScript", "C++", "Java"]
+    "category": "AI Frameworks & Deep Learning",
+    "skills": ["PyTorch", "OpenCV", "Hugging Face", "IBM Watsonx", "YOLOv8", "CNNs (EfficientNet, ConvNeXt)", "Image Forensics (FFT/DWT/ELA)"]
   },
   {
-    "category": "Frameworks & Libraries",
-    "skills": ["TensorFlow", "PyTorch", "OpenCV", "React.js", "Node.js", "Flutter", "Scikit-learn"]
+    "category": "Generative AI & Agents",
+    "skills": ["RAG Pipelines", "Multi-Agent Orchestration", "Prompt Engineering"]
   },
   {
-    "category": "Tools & Platforms",
-    "skills": ["Git & GitHub", "Docker", "VS Code", "Jupyter", "Google Cloud", "Firebase", "Supabase"]
+    "category": "Web & Backend Technologies",
+    "skills": ["React.js", "Next.js", "FastAPI", "JavaScript", "TypeScript", "HTML5 & CSS3", "SQL", "Supabase", "Real-time Pub/Sub"]
+  },
+  {
+    "category": "Tools, Cloud & Core Concepts",
+    "skills": ["Docker", "Git & GitHub", "WSL", "Google Cloud Platform", "Firebase", "Vercel", "Data Structures & Algorithms", "RESTful APIs", "Clean Code"]
   }
 ]
