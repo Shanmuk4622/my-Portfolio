@@ -108,6 +108,7 @@
     "date": "2024-09",
     "pics": [],
     "links": [
+      "https://github.com/Shanmuk4622/Compressor",
       "https://www.linkedin.com/posts/shanmukesh-bonala_dear-shanmukesh-we-are-delighted-to-inform-activity-7246413183303720960-P3_i?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXeVFUBn9rTffqhOSjYb3ryVIZLkjbtQRU"
     ],
     "progress": 100
@@ -242,7 +243,7 @@
     "date": "2024-12",
     "pics": [],
     "links": [
-      ""
+      "https://github.com/Shanmuk4622/Invisible_clock"
     ],
     "progress": 100
   },
@@ -478,7 +479,6 @@
     "pics": [],
     "links": [
       "https://github.com/Shanmuk4622/Anomaly-Detection-Fire-Theft",
-      "https://github.com/Shanmuk4622/Flutter-app-read-test-from-image",
       "https://github.com/Shanmuk4622/YOLO_-AD-Phase1"
     ],
     "progress": 100
@@ -518,6 +518,7 @@
     "date": "2025-04",
     "pics": [],
     "links": [
+      "https://github.com/Shanmuk4622/Vehicle-Number-Recg",
       "https://youtu.be/S10q5aWlGPU",
       "https://youtu.be/-gsb9Mh20gs"
     ],
@@ -560,7 +561,8 @@
     "date": "2025-04",
     "pics": [],
     "links": [
-      "https://github.com/Shanmuk4622/Fire-Detection-using-YOLOv8"
+      "https://github.com/Shanmuk4622/Fire-Detection-using-YOLOv8",
+      "https://youtu.be/AtcrRrPUqS8?si=YtsUAOY3k5Nk3AqG"
     ],
     "progress": 100
   },
@@ -620,7 +622,8 @@
     "date": "2025-05",
     "pics": [],
     "links": [
-      "https://youtu.be/S10q5aWlGPU"
+      "https://youtu.be/S10q5aWlGPU",
+      "https://github.com/Shanmuk4622/Train-Custom-YOLO-Model"
     ],
     "progress": 100
   },
@@ -678,7 +681,7 @@
     "date": "2025-06",
     "pics": [],
     "links": [
-      ""
+      "https://github.com/Shanmuk4622/Train-Custom-YOLO-Model"
     ],
     "progress": 100
   },
@@ -753,7 +756,7 @@
     "description": "Prepared and submitted a research manuscript to the ICDPN 2025 conference (proceedings to be published by Springer LNNS, Scopus Indexed). Finalized formatting, references, and all submission artifacts against the deadline.",
     "date": "2025-07",
     "pics": [],
-    "links": [],
+    "links": ["https://scholar.google.com/citations?user=7fVbOlwAAAAJ&hl=en"],
     "progress": 100
   },
   {
@@ -811,7 +814,7 @@
     "description": "Studied CNN fundamentals and applied transfer learning with ResNet and VGG for brain tumor recognition. Set up Google Colab notebooks and dataset pipelines, and used Netron for model architecture visualization.",
     "date": "2025-08",
     "pics": [],
-    "links": [],
+    "links": ["https://scholar.google.com/citations?user=7fVbOlwAAAAJ&hl=en"],
     "progress": 100
   },
   {
@@ -884,7 +887,7 @@
     "description": "Authored the 'Limitations' and 'Future Work' sections for a tumor-detection research paper. Clarified dataset scope, generalization caveats, and next steps. Drafted an extension plan for segmentation and multi-center validation.",
     "date": "2025-08",
     "pics": [],
-    "links": [],
+    "links": ["https://scholar.google.com/citations?user=7fVbOlwAAAAJ&hl=en"],
     "progress": 100
   },
   {
@@ -1009,7 +1012,7 @@
     "description": "Authored and developed an improved model, 'LDW-CNet', for brain tumor recognition. This new version integrates Discrete Wavelet Transform (DWT) for enhanced feature extraction and image decomposition from MRI scans before feeding them into a lightweight Convolutional Neural Network (CNN), improving detection accuracy and computational efficiency. Prepared a research paper on the methodology, findings, and performance.",
     "date": "2025-10",
     "pics": [],
-    "links": [],
+    "links": ["https://scholar.google.com/citations?user=7fVbOlwAAAAJ&hl=en"],
     "progress": 100
   },
   {
@@ -1222,5 +1225,28 @@
       "https://youtu.be/fFj4ugAQudc"
     ],
     "progress": 100
+  },
+  {
+    "id": 63,
+    "title": "NIT Nagpur Internship Repository",
+    "category": "Education Project",
+    "organization": "NIT Nagpur",
+    "skills": [
+      "Python",
+      "Jupyter Notebook",
+      "Data Management",
+      "Machine Learning Models",
+      "Model Evaluation",
+      "Trustworthiness Metrics",
+      "Documentation"
+    ],
+    "description": "During this internship, I learned how to manage datasets effectively, organize weekly reports, and build reproducible workflows in Jupyter. I explored multiple machine learning models, focusing on evaluation techniques and trustworthiness aspects such as bias detection and reliability checks. The work strengthened my understanding of statistical foundations for ML, data preprocessing, and systematic documentation, while also teaching me how to structure projects for clarity and long-term usability.",
+    "date": "2026-06",
+    "pics": [],
+    "links": [
+      "https://github.com/Shanmuk4622/NIT-Nagpur-Internship"
+    ],
+    "progress": 80
   }
+
 ]

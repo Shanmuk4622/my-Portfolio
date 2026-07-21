@@ -103,5 +103,30 @@
         "links": [
             "https://scholar.google.com/citations?hl=en&authuser=2&user=7fVbOlwAAAAJ"
         ]
+    },
+    {
+        "id": 7,
+        "role": "AI/ML Intern",
+        "company": "NIT Nagpur",
+        "location": "Remote",
+        "duration": "Jun 2026 - Jul 2026",
+        "description": [
+            "Learned how to manage datasets effectively and organize weekly reports using Jupyter Notebooks.",
+            "Explored multiple machine learning models with a focus on evaluation techniques and trustworthiness metrics such as bias detection and reliability checks.",
+            "Strengthened understanding of statistical foundations for ML, data preprocessing, and systematic documentation practices."
+        ],
+        "skills": [
+            "Python",
+            "Jupyter Notebook",
+            "Data Management",
+            "Machine Learning Models",
+            "Model Evaluation",
+            "Trustworthiness Metrics",
+            "Documentation"
+        ],
+        "links": [
+            "https://github.com/Shanmuk4622/NIT-Nagpur-Internship"
+        ]
     }
+
 ]
