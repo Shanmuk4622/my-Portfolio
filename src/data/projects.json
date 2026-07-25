@@ -109,5 +109,29 @@
     "demoLink": "https://youtu.be/XGHO07l-3YY",
     "start": "2025-11",
     "end": "2025-12"
+  },
+  {
+    "id": 11,
+    "title": "E2AM-Framework: Energy-Aware Multi-Model Workspace",
+    "description": "Designed an energy-aware workspace enabling 684+ hours (28.5 days) of continuous GPU training across CIFAR10, CIFAR100, and Tiny-ImageNet datasets. Achieved reproducibility with 225 completed model configurations and 11,250 trained epochs, supporting training, ablation, and deployment of diverse vision models.",
+    "image": "/Project11.gif",
+    "tags": ["Python", "PyTorch", "Deep Learning", "CIFAR10", "CIFAR100", "Tiny-ImageNet", "GPU Training", "Model Ablation"],
+    "githubLink": "https://github.com/Shanmuk4622/E2AM-Framework",
+    "demoLink": null,
+    "start": "2026-02",
+    "end": "2026-07"
+  },
+  {
+    "id": 12,
+    "title": "E2AM-Library: Structured Workflow for Reproducible Research",
+    "description": "Official library of the E2AM framework, encapsulating its workflow, methodology, and practices. Provides a structured foundation for experimentation, implementation, and reproducible research across diverse vision models.",
+    "image": "/Project12.gif",
+    "tags": ["Python", "PyTorch", "Deep Learning", "Reproducibility", "Model Training", "Experimentation"],
+    "githubLink": "https://github.com/Shanmuk4622/e2am",
+    "demoLink": null,
+    "start": "2025-10",
+    "end": "2025-11"
   }
+
+
 ]

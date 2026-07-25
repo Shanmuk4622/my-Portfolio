@@ -19,15 +19,6 @@
   },
   {
     "id": 3,
-    "name": "AI for Everyone",
-    "issuer": "CredsVerse",
-    "date": "2025",
-    "description": "",
-    "url": "https://certx.in/certificate/27431ebc-ac17-43c8-9713-f5b20ad95b99402028",
-    "imageUrl": "/c_aifortechies.png"
-  },
-  {
-    "id": 4,
     "name": "ChatGPT for Beginners: Complete Guide to Conversational AI",
     "issuer": "Udemy",
     "date": "2024",
@@ -36,7 +27,7 @@
     "imageUrl": "/c_chatudemy.png"
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Practical AI Using ChatGPT",
     "issuer": "CredsVerse",
     "date": "2025",
@@ -45,48 +36,66 @@
     "imageUrl": "/cert_placeholder.png"
   },
   {
-    "id": 6,
-    "name": "Machine Learning Foundations",
-    "issuer": "Skills Network (IBM)",
-    "date": "2024",
+    "id": 5,
+    "name": "GEN AI Using IBM Watsonx",
+    "issuer": "IBM",
+    "date": "2025-06",
     "description": "",
     "url": "https://courses.adroitprolearn.skillsnetwork.site/certificates/7c54955bf31640cd8ad4d2786b38b956",
-    "imageUrl": "/cert_placeholder.png"
+    "imageUrl": "/c_ibm.png"
+  },
+  {
+    "id": 6,
+    "name": "Enterpreneurship",
+    "issuer": "Wadhwani Foundation",
+    "date": "2025-08",
+    "description": "",
+    "url": "https://web.certificate.wfglobal.org/en/certificate?certificateId=67fde7e6eeacc2785e226818",
+    "imageUrl": "/c_wadhwani.png"
   },
   {
     "id": 7,
-    "name": "AI-ML Virtual Internship Program",
-    "issuer": "Wadhwani Foundation",
-    "date": "2023-10",
-    "description": "",
-    "url": "https://web.certificate.wfglobal.org/en/certificate?certificateId=67fde7e6eeacc2785e226818",
-    "imageUrl": "/cert_placeholder.png"
-  },
-  {
-    "id": 8,
-    "name": "5th International Workshop on Technical Writing using LaTeX",
-    "issuer": "VIT-AP & IEEE SENSE Dept.",
-    "date": "2025-06",
-    "description": "",
-    "url": "file://workshop-on-latex.pdf",
-    "imageUrl": "/cert_placeholder.png"
-  },
-  {
-    "id": 9,
     "name": "IEEE Student Member",
     "issuer": "IEEE Hyderabad Section",
     "date": "2025",
     "description": "",
-    "url": "file://IEEEMemberCertificate Milestone-1.pdf",
-    "imageUrl": "/cert_placeholder.png"
+    "url": "https://drive.google.com/file/d/1d0sl-z3My-w1Zce-dH6X8PTguaJVbp0P/view?usp=sharing",
+    "imageUrl": "/c_ieee.png"
+  },
+  {
+    "id": 8,
+    "name": "DevOps Workshop Certificate",
+    "issuer": "VIT-AP University",
+    "date": "2025-07",
+    "description": "",
+    "url": "https://drive.google.com/file/d/1bHK-VzVY4Y4gUS2y5V-_91pur27XWGsn/view?usp=sharing",
+    "imageUrl": "/c_DevOps.jpg"
+  },
+  {
+    "id": 9,
+    "name": "ICPR 2026 International Conference",
+    "issuer": "Rayson Laroca (PUCPR)",
+    "date": "2026-02",
+    "description": "",
+    "url": "https://icpr26lrlpr.github.io/certificates/participation/shanmukesh.pdf",
+    "imageUrl": "/c_icpr.png"
   },
   {
     "id": 10,
-    "name": "DevOps Workshop Certificate",
-    "issuer": "Unknown (from image)",
-    "date": "Unknown",
+    "name": "AWS Certified AI Practitioner",
+    "issuer": "AWS",
+    "date": "2026-06",
     "description": "",
-    "url": "file://DevOps.jpg",
+    "url": "https://cp.certmetrics.com/amazon/en/public/verify/credential/680a917cfb5b49879d360a236bc1ac04",
+    "imageUrl": "/c_DevOps.jpg"
+  },
+  {
+    "id": 11,
+    "name": "AWS Certified Cloud Practitioner",
+    "issuer": "AWS",
+    "date": "2026-06",
+    "description": "",
+    "url": "https://cp.certmetrics.com/amazon/en/public/verify/credential/a7bfdbb079a144a99f60c686555ea3ac",
     "imageUrl": "/c_DevOps.jpg"
   }
 ]
