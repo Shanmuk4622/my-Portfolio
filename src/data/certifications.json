@@ -10,8 +10,8 @@
   },
   {
     "id": 2,
-    "name": "Cyber Security Essentials",
-    "issuer": "CertX",
+    "name": "National Level Block Chain Hackathon",
+    "issuer": "Hyperlane, VIT-AP University",
     "date": "2025",
     "description": "",
     "url": "https://credsverse.com/credentials/ef7b5a14-d0af-4ad3-a1fe-e90b54f9067e",
@@ -19,15 +19,6 @@
   },
   {
     "id": 3,
-    "name": "ChatGPT for Beginners: Complete Guide to Conversational AI",
-    "issuer": "Udemy",
-    "date": "2024",
-    "description": "",
-    "url": "https://www.udemy.com/certificate/UC-f7ac2a2c-195a-4162-9476-c1a9e4807440/",
-    "imageUrl": "/c_chatudemy.png"
-  },
-  {
-    "id": 4,
     "name": "Practical AI Using ChatGPT",
     "issuer": "CredsVerse",
     "date": "2025",
@@ -36,7 +27,7 @@
     "imageUrl": "/cert_placeholder.png"
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "GEN AI Using IBM Watsonx",
     "issuer": "IBM",
     "date": "2025-06",
@@ -45,7 +36,7 @@
     "imageUrl": "/c_ibm.png"
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "Enterpreneurship",
     "issuer": "Wadhwani Foundation",
     "date": "2025-08",
@@ -54,7 +45,7 @@
     "imageUrl": "/c_wadhwani.png"
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "IEEE Student Member",
     "issuer": "IEEE Hyderabad Section",
     "date": "2025",
@@ -63,7 +54,7 @@
     "imageUrl": "/c_ieee.png"
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "DevOps Workshop Certificate",
     "issuer": "VIT-AP University",
     "date": "2025-07",
@@ -72,7 +63,7 @@
     "imageUrl": "/c_DevOps.jpg"
   },
   {
-    "id": 9,
+    "id": 8,
     "name": "ICPR 2026 International Conference",
     "issuer": "Rayson Laroca (PUCPR)",
     "date": "2026-02",
@@ -81,21 +72,21 @@
     "imageUrl": "/c_icpr.png"
   },
   {
-    "id": 10,
+    "id": 9,
     "name": "AWS Certified AI Practitioner",
     "issuer": "AWS",
     "date": "2026-06",
     "description": "",
     "url": "https://cp.certmetrics.com/amazon/en/public/verify/credential/680a917cfb5b49879d360a236bc1ac04",
-    "imageUrl": "/c_DevOps.jpg"
+    "imageUrl": "/c_aws1.png"
   },
   {
-    "id": 11,
+    "id": 10,
     "name": "AWS Certified Cloud Practitioner",
     "issuer": "AWS",
     "date": "2026-06",
     "description": "",
     "url": "https://cp.certmetrics.com/amazon/en/public/verify/credential/a7bfdbb079a144a99f60c686555ea3ac",
-    "imageUrl": "/c_DevOps.jpg"
+    "imageUrl": "/c_aws2.png"
   }
 ]

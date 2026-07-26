@@ -77,18 +77,6 @@
     "end": "2025-09"
   },
   {
-    "id": 8,
-    "title": "MovieFrd: Anonymous Movie Chat",
-    "description": "A web app for college students to anonymously chat about movies and TV shows, built with Next.js and Supabase for real-time chat and authentication.",
-    "image": "/Project8.gif",
-    "tags": ["Next.js", "Supabase", "Real-time Chat", "Full-Stack Development", "Authentication"],
-    "githubLink": "https://github.com/Shanmuk4622/MovieFrd",
-    "demoLink": "https://moviefrd.vercel.app/",
-    "start": "2025-10",
-    "end": "Present"
-  },
-
-  {
     "id": 9,
     "title": "Multi-Modal Forensic Detection of AI-Generated Images",
     "description": "Conducted extensive research on detecting AI-generated media. Pivoted from complex multi-modal architectures to a robust, data-centric EfficientNet-B0 model achieving a state-of-the-art 99.5% F1-score.",
@@ -125,13 +113,25 @@
     "id": 12,
     "title": "E2AM-Library: Structured Workflow for Reproducible Research",
     "description": "Official library of the E2AM framework, encapsulating its workflow, methodology, and practices. Provides a structured foundation for experimentation, implementation, and reproducible research across diverse vision models.",
-    "image": "/Project12.gif",
+    "image": "/Project12.png",
     "tags": ["Python", "PyTorch", "Deep Learning", "Reproducibility", "Model Training", "Experimentation"],
     "githubLink": "https://github.com/Shanmuk4622/e2am",
     "demoLink": null,
-    "start": "2025-10",
-    "end": "2025-11"
+    "start": "2026-07",
+    "end": "2026-07"
+  },
+  {
+    "id": 13,
+    "title": "AutoSource: Autonomous Multi-Agent Procurement & Negotiation Network",
+    "description": "Open-source autonomous multi-agent procurement and negotiation system designed to empower small organizations with enterprise-level supply-chain capabilities. AutoSource leverages modular agents to monitor inventory, coordinate sourcing, negotiate vendor discounts, and ensure human-in-the-loop approval, delivering reproducible and cost-efficient procurement workflows.",
+    "image": "/Project13.gif",
+    "tags": ["Python", "Multi-Agent Systems", "Supply Chain", "Procurement", "Negotiation", "Streamlit", "Reproducibility"],
+    "githubLink": "https://github.com/Shanmuk4622/AutoSource-Autonomous-Multi-Agent-Procurement-Negotiation-Network",
+    "demoLink": "https://huggingface.co/spaces/Shanmuk4622/AutoSource",
+    "start": "2026-07",
+    "end": "2026-07"
   }
+
 
 
 ]
